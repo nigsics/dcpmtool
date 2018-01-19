@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. clone the project
 
 ```
-git clone 
+git clone https://github.com/nigsics/dcpmtool.git {Your folder}
 ```
 
 ### Installing
@@ -35,19 +35,19 @@ git clone
 ### Run a test 
 1. Configure a test.
    Open placement_alg/run.config and modify the parameters 
-'''
+```
 resultpath : the path for storing the result files.
 topopath   : the path for finding the network topology description file.
 topoloogy  : the name of the network topology description file used in the test.
 linkbandwidth : the list of link bandwidths will be tested.
 
-'''
+```
 
 2. Run a test
 In folder placement_alg/, open a terminal and run
-'''
+```
 python run_bd_scale_test.py
-'''
+```
 
 The service reliability under different link bandwidths can be find in placement_alg/$resultpath/ folder. 
 
@@ -55,9 +55,9 @@ The service reliability under different link bandwidths can be find in placement
 3. Display the results
 In folder placement_alg/, open a terminal and run
 
-'''
+```
 python draw_colour_coded.py
-'''
+```
 
 Several graphes will be generated. The graphes named with the format "$topology_$bandwidth" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
 The graph named with the format "$topology_scale_up" shows the achieved failure probability (failure probability = service reliability) corresponding to the link bandwidths.

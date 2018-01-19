@@ -59,8 +59,8 @@ In folder placement_alg/, open a terminal and run
 python draw_colour_coded.py
 ```
 
-Several graphes will be generated. The graphes named with the format "$topology_$bandwidth" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
-The graph named with the format "$topology_scale_up" shows the achieved failure probability (failure probability = service reliability) corresponding to the link bandwidths.
+Several graphes will be generated. The graphes named with the format "{topology}_{bandwidt}" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
+The graph named with the format "{topology}__scale_up" shows the achieved failure probability (failure probability = service reliability) corresponding to the link bandwidths.
 
  
 

@@ -49,17 +49,17 @@ In folder placement_alg/, open a terminal and run
 python run_bd_scale_test.py
 ```
 
-The service reliability under different link bandwidths can be find in placement_alg/$resultpath/ folder. 
+The service reliability under different link bandwidths can be find in {resultpath}/ folder. 
 
 
 3. Display the results
-In folder placement_alg/, open a terminal and run
+In folder graphes/, open a terminal and run
 
 ```
 python draw_colour_coded.py
 ```
 
-Several graphes will be generated. The graphes named with the format "{topology}_{bandwidt}" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
+Several graphes will be generated. The graphes named with the format "{topology}_{bandwidth}" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
 The graph named with the format "{topology}__scale_up" shows the achieved failure probability (failure probability = service reliability) corresponding to the link bandwidths.
 
  

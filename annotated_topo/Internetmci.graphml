@@ -1,0 +1,1008 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="LinkSpeedRaw" attr.type="double" for="edge" id="d48" />
+  <key attr.name="LinkSpeedUnits" attr.type="string" for="edge" id="d47" />
+  <key attr.name="LinkSpeed" attr.type="string" for="edge" id="d46" />
+  <key attr.name="reliability" attr.type="double" for="edge" id="d45" />
+  <key attr.name="LinkLabel" attr.type="string" for="edge" id="d44" />
+  <key attr.name="LinkNote" attr.type="string" for="edge" id="d43" />
+  <key attr.name="index" attr.type="int" for="edge" id="d42" />
+  <key attr.name="weight" attr.type="double" for="edge" id="d41" />
+  <key attr.name="capacity" attr.type="int" for="edge" id="d40" />
+  <key attr.name="wire_latency" attr.type="double" for="edge" id="d39" />
+  <key attr.name="LinkType" attr.type="string" for="edge" id="d38" />
+  <key attr.name="id" attr.type="int" for="node" id="d37" />
+  <key attr.name="reliability" attr.type="double" for="node" id="d36" />
+  <key attr.name="ctrl_rel" attr.type="double" for="node" id="d35" />
+  <key attr.name="Latitude" attr.type="double" for="node" id="d34" />
+  <key attr.name="Internal" attr.type="int" for="node" id="d33" />
+  <key attr.name="label" attr.type="string" for="node" id="d32" />
+  <key attr.name="Longitude" attr.type="double" for="node" id="d31" />
+  <key attr.name="Country" attr.type="string" for="node" id="d30" />
+  <key attr.name="load" attr.type="int" for="node" id="d29" />
+  <key attr.name="Testbed" attr.type="int" for="graph" id="d28" />
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d27" />
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d26" />
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d25" />
+  <key attr.name="Transit" attr.type="int" for="graph" id="d24" />
+  <key attr.name="Developed" attr.type="int" for="graph" id="d23" />
+  <key attr.name="Creator" attr.type="string" for="graph" id="d22" />
+  <key attr.name="Layer" attr.type="string" for="graph" id="d21" />
+  <key attr.name="Access" attr.type="int" for="graph" id="d20" />
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d19" />
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d18" />
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d17" />
+  <key attr.name="SourceGitVersion" attr.type="string" for="graph" id="d16" />
+  <key attr.name="IX" attr.type="int" for="graph" id="d15" />
+  <key attr.name="Customer" attr.type="int" for="graph" id="d14" />
+  <key attr.name="ToolsetVersion" attr.type="string" for="graph" id="d13" />
+  <key attr.name="label" attr.type="string" for="graph" id="d12" />
+  <key attr.name="Commercial" attr.type="int" for="graph" id="d11" />
+  <key attr.name="Backbone" attr.type="int" for="graph" id="d10" />
+  <key attr.name="Type" attr.type="string" for="graph" id="d9" />
+  <key attr.name="DateType" attr.type="string" for="graph" id="d8" />
+  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
+  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
+  <key attr.name="Note" attr.type="string" for="graph" id="d5" />
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
+  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <data key="d0">14/01/11</data>
+    <data key="d1">USA</data>
+    <data key="d2">Country</data>
+    <data key="d3">InternetMCI</data>
+    <data key="d4">Secondary</data>
+    <data key="d5">Peer interconnects only - IGNORE</data>
+    <data key="d6">http://www.nthelp.com/images/interconnect.jpg</data>
+    <data key="d7">1.0</data>
+    <data key="d8">Current</data>
+    <data key="d9">COM</data>
+    <data key="d10">0</data>
+    <data key="d11">0</data>
+    <data key="d12">Internetmci</data>
+    <data key="d13">0.3.34dev-20120328</data>
+    <data key="d14">0</data>
+    <data key="d15">0</data>
+    <data key="d16">e278b1b</data>
+    <data key="d17">=</data>
+    <data key="d18">01</data>
+    <data key="d19">14/01/11</data>
+    <data key="d20">0</data>
+    <data key="d21">IP</data>
+    <data key="d22">Topology Zoo Toolset</data>
+    <data key="d23">1</data>
+    <data key="d24">0</data>
+    <data key="d25">2011_01</data>
+    <data key="d26">2011</data>
+    <data key="d27">2011_09_01</data>
+    <data key="d28">0</data>
+    <node id="0">
+      <data key="d29">539</data>
+      <data key="d30">United States</data>
+      <data key="d31">-95.36327</data>
+      <data key="d32">Houston</data>
+      <data key="d33">1</data>
+      <data key="d34">29.76328</data>
+      <data key="d35">0.999900240819</data>
+      <data key="d36">0.999891582987</data>
+      <data key="d37">0</data>
+    </node>
+    <node id="1">
+      <data key="d29">631</data>
+      <data key="d30">United States</data>
+      <data key="d31">-80.12477</data>
+      <data key="d32">Pompano Beach</data>
+      <data key="d33">1</data>
+      <data key="d34">26.23786</data>
+      <data key="d35">0.999870490472</data>
+      <data key="d36">0.999857076057</data>
+      <data key="d37">1</data>
+    </node>
+    <node id="2">
+      <data key="d29">733</data>
+      <data key="d30">United States</data>
+      <data key="d31">-84.63438</data>
+      <data key="d32">Austell</data>
+      <data key="d33">1</data>
+      <data key="d34">33.81261</data>
+      <data key="d35">0.999850115953</data>
+      <data key="d36">0.999861692837</data>
+      <data key="d37">2</data>
+    </node>
+    <node id="3">
+      <data key="d29">595</data>
+      <data key="d30">United States</data>
+      <data key="d31">-96.80667</data>
+      <data key="d32">Dallas</data>
+      <data key="d33">1</data>
+      <data key="d34">32.78306</data>
+      <data key="d35">0.999896909793</data>
+      <data key="d36">0.99990594737</data>
+      <data key="d37">3</data>
+    </node>
+    <node id="4">
+      <data key="d29">604</data>
+      <data key="d30">United States</data>
+      <data key="d31">-71.97007</data>
+      <data key="d32">Charlton</data>
+      <data key="d33">1</data>
+      <data key="d34">42.13565</data>
+      <data key="d35">0.999856524542</data>
+      <data key="d36">0.999905428848</data>
+      <data key="d37">4</data>
+    </node>
+    <node id="5">
+      <data key="d29">577</data>
+      <data key="d30">United States</data>
+      <data key="d31">-74.00597</data>
+      <data key="d32">New York</data>
+      <data key="d33">1</data>
+      <data key="d34">40.71427</data>
+      <data key="d35">0.999916756596</data>
+      <data key="d36">0.999875015093</data>
+      <data key="d37">5</data>
+    </node>
+    <node id="6">
+      <data key="d29">564</data>
+      <data key="d30">United States</data>
+      <data key="d31">-118.24368</data>
+      <data key="d32">Los Angeles</data>
+      <data key="d33">1</data>
+      <data key="d34">34.05223</data>
+      <data key="d35">0.999859347203</data>
+      <data key="d36">0.999883798885</data>
+      <data key="d37">6</data>
+    </node>
+    <node id="7">
+      <data key="d29">251</data>
+      <data key="d30">United States</data>
+      <data key="d31">-117.37032</data>
+      <data key="d32">Rialto</data>
+      <data key="d33">1</data>
+      <data key="d34">34.1064</data>
+      <data key="d35">0.999927461357</data>
+      <data key="d36">0.999859565103</data>
+      <data key="d37">7</data>
+    </node>
+    <node id="8">
+      <data key="d29">656</data>
+      <data key="d30">United States</data>
+      <data key="d31">-74.23904</data>
+      <data key="d32">West Orange</data>
+      <data key="d33">1</data>
+      <data key="d34">40.79871</data>
+      <data key="d35">0.999835853079</data>
+      <data key="d36">0.999897530936</data>
+      <data key="d37">8</data>
+    </node>
+    <node id="9">
+      <data key="d29">502</data>
+      <data key="d30">United States</data>
+      <data key="d31">-77.03637</data>
+      <data key="d32">Washington, DC</data>
+      <data key="d33">1</data>
+      <data key="d34">38.89511</data>
+      <data key="d35">0.999894221011</data>
+      <data key="d36">0.999908048697</data>
+      <data key="d37">9</data>
+    </node>
+    <node id="10">
+      <data key="d29">338</data>
+      <data key="d30">United States</data>
+      <data key="d31">-79.79198</data>
+      <data key="d32">Greensboro</data>
+      <data key="d33">1</data>
+      <data key="d34">36.07264</data>
+      <data key="d35">0.999868269989</data>
+      <data key="d36">0.999886143024</data>
+      <data key="d37">10</data>
+    </node>
+    <node id="11">
+      <data key="d29">737</data>
+      <data key="d30">United States</data>
+      <data key="d31">-122.33207</data>
+      <data key="d32">Seattle</data>
+      <data key="d33">1</data>
+      <data key="d34">47.60621</data>
+      <data key="d35">0.99981816716</data>
+      <data key="d36">0.99987475152</data>
+      <data key="d37">11</data>
+    </node>
+    <node id="12">
+      <data key="d29">736</data>
+      <data key="d30">United States</data>
+      <data key="d31">-122.41942</data>
+      <data key="d32">San Francisco</data>
+      <data key="d33">1</data>
+      <data key="d34">37.77493</data>
+      <data key="d35">0.999834351807</data>
+      <data key="d36">0.999924334024</data>
+      <data key="d37">12</data>
+    </node>
+    <node id="13">
+      <data key="d29">302</data>
+      <data key="d30">United States</data>
+      <data key="d31">-121.4944</data>
+      <data key="d32">Sacramento</data>
+      <data key="d33">1</data>
+      <data key="d34">38.58157</data>
+      <data key="d35">0.999925920897</data>
+      <data key="d36">0.999850793687</data>
+      <data key="d37">13</data>
+    </node>
+    <node id="14">
+      <data key="d29">674</data>
+      <data key="d30">United States</data>
+      <data key="d31">-104.9847</data>
+      <data key="d32">Denver</data>
+      <data key="d33">1</data>
+      <data key="d34">39.73915</data>
+      <data key="d35">0.999912857054</data>
+      <data key="d36">0.999856714897</data>
+      <data key="d37">14</data>
+    </node>
+    <node id="15">
+      <data key="d29">438</data>
+      <data key="d30">United States</data>
+      <data key="d31">-94.41551</data>
+      <data key="d32">Independence</data>
+      <data key="d33">1</data>
+      <data key="d34">39.09112</data>
+      <data key="d35">0.999881940301</data>
+      <data key="d36">0.999926499566</data>
+      <data key="d37">15</data>
+    </node>
+    <node id="16">
+      <data key="d29">252</data>
+      <data key="d30">United States</data>
+      <data key="d31">-91.96987</data>
+      <data key="d32">Willow Springs</data>
+      <data key="d33">1</data>
+      <data key="d34">36.99228</data>
+      <data key="d35">0.999862313403</data>
+      <data key="d36">0.999897615261</data>
+      <data key="d37">16</data>
+    </node>
+    <node id="17">
+      <data key="d29">403</data>
+      <data key="d30">United States</data>
+      <data key="d31">-88.01117</data>
+      <data key="d32">Downers Grove</data>
+      <data key="d33">1</data>
+      <data key="d34">41.80892</data>
+      <data key="d35">0.999921163489</data>
+      <data key="d36">0.999899426447</data>
+      <data key="d37">17</data>
+    </node>
+    <node id="18">
+      <data key="d29">537</data>
+      <data key="d30">United States</data>
+      <data key="d31">-81.72457</data>
+      <data key="d32">North Royalton</data>
+      <data key="d33">1</data>
+      <data key="d34">41.31366</data>
+      <data key="d35">0.999873264213</data>
+      <data key="d36">0.999883375932</data>
+      <data key="d37">18</data>
+    </node>
+    <edge source="0" target="1">
+      <data key="d38">DS-3</data>
+      <data key="d39">7.85261424229</data>
+      <data key="d40">1000</data>
+      <data key="d41">7.85261424229</data>
+      <data key="d42">0</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999810544012</data>
+    </edge>
+    <edge source="0" target="3">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.84323719371</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.84323719371</data>
+      <data key="d42">1</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999881893537</data>
+    </edge>
+    <edge source="1" target="0">
+      <data key="d38">DS-3</data>
+      <data key="d39">7.85261424229</data>
+      <data key="d40">1000</data>
+      <data key="d41">7.85261424229</data>
+      <data key="d42">2</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999810267011</data>
+    </edge>
+    <edge source="1" target="2">
+      <data key="d38">DS-3</data>
+      <data key="d39">4.81391757573</data>
+      <data key="d40">1000</data>
+      <data key="d41">4.81391757573</data>
+      <data key="d42">3</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999895792972</data>
+    </edge>
+    <edge source="2" target="7">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">15.2773599355</data>
+      <data key="d41">15.2773599355</data>
+      <data key="d42">4</data>
+      <data key="d45">0.99991720608</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="2" target="1">
+      <data key="d38">DS-3</data>
+      <data key="d39">4.81391757573</data>
+      <data key="d40">1000</data>
+      <data key="d41">4.81391757573</data>
+      <data key="d42">5</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999926913681</data>
+    </edge>
+    <edge source="2" target="10">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.58060408239</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.58060408239</data>
+      <data key="d42">6</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999875376394</data>
+    </edge>
+    <edge source="2" target="3">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">5.77495845448</data>
+      <data key="d41">5.77495845448</data>
+      <data key="d42">7</data>
+      <data key="d45">0.999870132418</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="2" target="9">
+      <data key="d38">OC-12</data>
+      <data key="d46">622</data>
+      <data key="d44">622 Mbps OC-12</data>
+      <data key="d40">1000</data>
+      <data key="d39">4.49199230095</data>
+      <data key="d41">4.49199230095</data>
+      <data key="d42">8</data>
+      <data key="d45">0.999867094669</data>
+      <data key="d47">M</data>
+      <data key="d48">622000000.0</data>
+    </edge>
+    <edge source="3" target="0">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.84323719371</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.84323719371</data>
+      <data key="d42">9</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999922490918</data>
+    </edge>
+    <edge source="3" target="16">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">3.26757979301</data>
+      <data key="d41">3.26757979301</data>
+      <data key="d42">10</data>
+      <data key="d45">0.999869743386</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="3" target="2">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">5.77495845448</data>
+      <data key="d41">5.77495845448</data>
+      <data key="d42">11</data>
+      <data key="d45">0.99981942577</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="3" target="7">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">9.70831545721</data>
+      <data key="d41">9.70831545721</data>
+      <data key="d42">12</data>
+      <data key="d45">0.999903459019</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="3" target="15">
+      <data key="d38">DS-3</data>
+      <data key="d39">3.7281962475</data>
+      <data key="d40">1000</data>
+      <data key="d41">3.7281962475</data>
+      <data key="d42">13</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999925814635</data>
+    </edge>
+    <edge source="4" target="8">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.22212087</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.22212087</data>
+      <data key="d42">14</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999893343401</data>
+    </edge>
+    <edge source="4" target="9">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.84333221223</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.84333221223</data>
+      <data key="d42">15</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999868087188</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.178583349</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.178583349</data>
+      <data key="d42">16</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.99989723295</data>
+    </edge>
+    <edge source="4" target="16">
+      <data key="d38">DS-3</data>
+      <data key="d39">9.1587457843</data>
+      <data key="d40">1000</data>
+      <data key="d41">9.1587457843</data>
+      <data key="d42">17</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999822704636</data>
+    </edge>
+    <edge source="5" target="8">
+      <data key="d38">DS-3</data>
+      <data key="d39">0.110586248774</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.110586248774</data>
+      <data key="d42">18</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999888631636</data>
+    </edge>
+    <edge source="5" target="4">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.178583349</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.178583349</data>
+      <data key="d42">19</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999884657666</data>
+    </edge>
+    <edge source="6" target="12">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.8413667436</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.8413667436</data>
+      <data key="d42">20</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999898791675</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="d38">DS-3</data>
+      <data key="d39">0.409901350824</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.409901350824</data>
+      <data key="d42">21</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999896202009</data>
+    </edge>
+    <edge source="7" target="2">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">15.2773599355</data>
+      <data key="d41">15.2773599355</data>
+      <data key="d42">22</data>
+      <data key="d45">0.999911139195</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="7" target="3">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">9.70831545721</data>
+      <data key="d41">9.70831545721</data>
+      <data key="d42">23</data>
+      <data key="d45">0.999889724796</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="7" target="12">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">3.10278513067</data>
+      <data key="d41">3.10278513067</data>
+      <data key="d42">24</data>
+      <data key="d45">0.999915065308</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="7" target="6">
+      <data key="d38">DS-3</data>
+      <data key="d39">0.409901350824</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.409901350824</data>
+      <data key="d42">25</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.99991679421</data>
+    </edge>
+    <edge source="8" target="4">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.22212087</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.22212087</data>
+      <data key="d42">26</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999879679956</data>
+    </edge>
+    <edge source="8" target="5">
+      <data key="d38">DS-3</data>
+      <data key="d39">0.110586248774</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.110586248774</data>
+      <data key="d42">27</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999873056987</data>
+    </edge>
+    <edge source="8" target="9">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">1.62152651974</data>
+      <data key="d41">1.62152651974</data>
+      <data key="d42">28</data>
+      <data key="d45">0.999885708916</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="8" target="14">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">13.2018642052</data>
+      <data key="d41">13.2018642052</data>
+      <data key="d42">29</data>
+      <data key="d45">0.99988088462</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="8" target="16">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">8.07311519223</data>
+      <data key="d41">8.07311519223</data>
+      <data key="d42">30</data>
+      <data key="d45">0.999873697048</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="8" target="18">
+      <data key="d38">DS-3</data>
+      <data key="d39">3.20183966871</data>
+      <data key="d40">1000</data>
+      <data key="d41">3.20183966871</data>
+      <data key="d42">31</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.99987327916</data>
+    </edge>
+    <edge source="9" target="8">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">1.62152651974</data>
+      <data key="d41">1.62152651974</data>
+      <data key="d42">32</data>
+      <data key="d45">0.99986040136</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="9" target="16">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">6.73314553992</data>
+      <data key="d41">6.73314553992</data>
+      <data key="d42">33</data>
+      <data key="d45">0.999902800481</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="9" target="2">
+      <data key="d38">OC-12</data>
+      <data key="d46">622</data>
+      <data key="d44">622 Mbps OC-12</data>
+      <data key="d40">1000</data>
+      <data key="d39">4.49199230095</data>
+      <data key="d41">4.49199230095</data>
+      <data key="d42">34</data>
+      <data key="d45">0.999899096299</data>
+      <data key="d47">M</data>
+      <data key="d48">622000000.0</data>
+    </edge>
+    <edge source="9" target="4">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.84333221223</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.84333221223</data>
+      <data key="d42">35</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.99989043784</data>
+    </edge>
+    <edge source="9" target="10">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.01729962786</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.01729962786</data>
+      <data key="d42">36</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999944780447</data>
+    </edge>
+    <edge source="10" target="9">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.01729962786</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.01729962786</data>
+      <data key="d42">37</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999877844671</data>
+    </edge>
+    <edge source="10" target="2">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.58060408239</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.58060408239</data>
+      <data key="d42">38</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999847971559</data>
+    </edge>
+    <edge source="11" target="12">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">5.55551379349</data>
+      <data key="d41">5.55551379349</data>
+      <data key="d42">39</data>
+      <data key="d45">0.99986153104</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="11" target="14">
+      <data key="d38">DS-3</data>
+      <data key="d39">8.33987030826</data>
+      <data key="d40">1000</data>
+      <data key="d41">8.33987030826</data>
+      <data key="d42">40</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999887408042</data>
+    </edge>
+    <edge source="12" target="6">
+      <data key="d38">DS-3</data>
+      <data key="d39">2.8413667436</data>
+      <data key="d40">1000</data>
+      <data key="d41">2.8413667436</data>
+      <data key="d42">41</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999914329751</data>
+    </edge>
+    <edge source="12" target="11">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">5.55551379349</data>
+      <data key="d41">5.55551379349</data>
+      <data key="d42">42</data>
+      <data key="d45">0.999870645405</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="12" target="13">
+      <data key="d38">DS-3</data>
+      <data key="d39">0.613667420843</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.613667420843</data>
+      <data key="d42">43</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999874681278</data>
+    </edge>
+    <edge source="12" target="14">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">7.74969848682</data>
+      <data key="d41">7.74969848682</data>
+      <data key="d42">44</data>
+      <data key="d45">0.999907385049</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="12" target="7">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">3.10278513067</data>
+      <data key="d41">3.10278513067</data>
+      <data key="d42">45</data>
+      <data key="d45">0.999825087085</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="13" target="12">
+      <data key="d38">DS-3</data>
+      <data key="d39">0.613667420843</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.613667420843</data>
+      <data key="d42">46</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999911077524</data>
+    </edge>
+    <edge source="14" target="8">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">13.2018642052</data>
+      <data key="d41">13.2018642052</data>
+      <data key="d42">47</data>
+      <data key="d45">0.999879094048</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="14" target="16">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">5.96537242182</data>
+      <data key="d41">5.96537242182</data>
+      <data key="d42">48</data>
+      <data key="d45">0.999873622697</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="14" target="11">
+      <data key="d38">DS-3</data>
+      <data key="d39">8.33987030826</data>
+      <data key="d40">1000</data>
+      <data key="d41">8.33987030826</data>
+      <data key="d42">49</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999902987906</data>
+    </edge>
+    <edge source="14" target="12">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">7.74969848682</data>
+      <data key="d41">7.74969848682</data>
+      <data key="d42">50</data>
+      <data key="d45">0.999842403447</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="14" target="15">
+      <data key="d38">DS-3</data>
+      <data key="d39">4.62584884258</data>
+      <data key="d40">1000</data>
+      <data key="d41">4.62584884258</data>
+      <data key="d42">51</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999889576581</data>
+    </edge>
+    <edge source="15" target="16">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.60957487126</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.60957487126</data>
+      <data key="d42">52</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999856737761</data>
+    </edge>
+    <edge source="15" target="3">
+      <data key="d38">DS-3</data>
+      <data key="d39">3.7281962475</data>
+      <data key="d40">1000</data>
+      <data key="d41">3.7281962475</data>
+      <data key="d42">53</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999856504734</data>
+    </edge>
+    <edge source="15" target="14">
+      <data key="d38">DS-3</data>
+      <data key="d39">4.62584884258</data>
+      <data key="d40">1000</data>
+      <data key="d41">4.62584884258</data>
+      <data key="d42">54</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999891902331</data>
+    </edge>
+    <edge source="16" target="3">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">3.26757979301</data>
+      <data key="d41">3.26757979301</data>
+      <data key="d42">55</data>
+      <data key="d45">0.999814453687</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="16" target="4">
+      <data key="d38">DS-3</data>
+      <data key="d39">9.1587457843</data>
+      <data key="d40">1000</data>
+      <data key="d41">9.1587457843</data>
+      <data key="d42">56</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999911508912</data>
+    </edge>
+    <edge source="16" target="8">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">8.07311519223</data>
+      <data key="d41">8.07311519223</data>
+      <data key="d42">57</data>
+      <data key="d45">0.99986724898</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="16" target="9">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">6.73314553992</data>
+      <data key="d41">6.73314553992</data>
+      <data key="d42">58</data>
+      <data key="d45">0.999914831792</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="16" target="14">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">5.96537242182</data>
+      <data key="d41">5.96537242182</data>
+      <data key="d42">59</data>
+      <data key="d45">0.999877819413</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="16" target="15">
+      <data key="d38">DS-3</data>
+      <data key="d39">1.60957487126</data>
+      <data key="d40">1000</data>
+      <data key="d41">1.60957487126</data>
+      <data key="d42">60</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.99988810394</data>
+    </edge>
+    <edge source="16" target="17">
+      <data key="d38">DS-3</data>
+      <data key="d39">3.22336165225</data>
+      <data key="d40">1000</data>
+      <data key="d41">3.22336165225</data>
+      <data key="d42">61</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999855515579</data>
+    </edge>
+    <edge source="17" target="16">
+      <data key="d38">DS-3</data>
+      <data key="d39">3.22336165225</data>
+      <data key="d40">1000</data>
+      <data key="d41">3.22336165225</data>
+      <data key="d42">62</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.999940475877</data>
+    </edge>
+    <edge source="17" target="18">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">2.67214481687</data>
+      <data key="d41">2.67214481687</data>
+      <data key="d42">63</data>
+      <data key="d45">0.999881438884</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+    <edge source="18" target="8">
+      <data key="d38">DS-3</data>
+      <data key="d39">3.20183966871</data>
+      <data key="d40">1000</data>
+      <data key="d41">3.20183966871</data>
+      <data key="d42">64</data>
+      <data key="d43">45 Mbps </data>
+      <data key="d44">45 Mbps DS-3</data>
+      <data key="d45">0.99985729453</data>
+    </edge>
+    <edge source="18" target="17">
+      <data key="d38">OC-3</data>
+      <data key="d46">155</data>
+      <data key="d44">155 Mbps OC-3</data>
+      <data key="d40">1000</data>
+      <data key="d39">2.67214481687</data>
+      <data key="d41">2.67214481687</data>
+      <data key="d42">65</data>
+      <data key="d45">0.999893606009</data>
+      <data key="d47">M</data>
+      <data key="d48">155000000.0</data>
+    </edge>
+  </graph>
+</graphml>

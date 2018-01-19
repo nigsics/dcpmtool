@@ -1,0 +1,1482 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reliability" attr.type="double" for="edge" id="d46" />
+  <key attr.name="LinkSpeedRaw" attr.type="double" for="edge" id="d45" />
+  <key attr.name="LinkLabel" attr.type="string" for="edge" id="d44" />
+  <key attr.name="LinkSpeedUnits" attr.type="string" for="edge" id="d43" />
+  <key attr.name="index" attr.type="int" for="edge" id="d42" />
+  <key attr.name="weight" attr.type="double" for="edge" id="d41" />
+  <key attr.name="capacity" attr.type="int" for="edge" id="d40" />
+  <key attr.name="wire_latency" attr.type="double" for="edge" id="d39" />
+  <key attr.name="LinkSpeed" attr.type="string" for="edge" id="d38" />
+  <key attr.name="id" attr.type="int" for="node" id="d37" />
+  <key attr.name="type" attr.type="string" for="node" id="d36" />
+  <key attr.name="reliability" attr.type="double" for="node" id="d35" />
+  <key attr.name="Latitude" attr.type="double" for="node" id="d34" />
+  <key attr.name="Internal" attr.type="int" for="node" id="d33" />
+  <key attr.name="label" attr.type="string" for="node" id="d32" />
+  <key attr.name="Longitude" attr.type="double" for="node" id="d31" />
+  <key attr.name="Country" attr.type="string" for="node" id="d30" />
+  <key attr.name="ctrl_rel" attr.type="double" for="node" id="d29" />
+  <key attr.name="load" attr.type="int" for="node" id="d28" />
+  <key attr.name="Testbed" attr.type="int" for="graph" id="d27" />
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d26" />
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d25" />
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d24" />
+  <key attr.name="Transit" attr.type="int" for="graph" id="d23" />
+  <key attr.name="Developed" attr.type="int" for="graph" id="d22" />
+  <key attr.name="Creator" attr.type="string" for="graph" id="d21" />
+  <key attr.name="Layer" attr.type="string" for="graph" id="d20" />
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d19" />
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d18" />
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d17" />
+  <key attr.name="SourceGitVersion" attr.type="string" for="graph" id="d16" />
+  <key attr.name="IX" attr.type="int" for="graph" id="d15" />
+  <key attr.name="Customer" attr.type="int" for="graph" id="d14" />
+  <key attr.name="ToolsetVersion" attr.type="string" for="graph" id="d13" />
+  <key attr.name="label" attr.type="string" for="graph" id="d12" />
+  <key attr.name="Commercial" attr.type="int" for="graph" id="d11" />
+  <key attr.name="Backbone" attr.type="int" for="graph" id="d10" />
+  <key attr.name="Type" attr.type="string" for="graph" id="d9" />
+  <key attr.name="DateType" attr.type="string" for="graph" id="d8" />
+  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
+  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
+  <key attr.name="Access" attr.type="int" for="graph" id="d5" />
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
+  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <data key="d0">19/10/10</data>
+    <data key="d1">Slovenia</data>
+    <data key="d2">Country</data>
+    <data key="d3">ARNES</data>
+    <data key="d4">Primary</data>
+    <data key="d5">0</data>
+    <data key="d6">http://www.arnes.si/infrastruktura.html</data>
+    <data key="d7">1.0</data>
+    <data key="d8">Dynamic</data>
+    <data key="d9">REN</data>
+    <data key="d10">1</data>
+    <data key="d11">0</data>
+    <data key="d12">Arnes</data>
+    <data key="d13">0.3.34dev-20120328</data>
+    <data key="d14">1</data>
+    <data key="d15">0</data>
+    <data key="d16">e278b1b</data>
+    <data key="d17">=</data>
+    <data key="d18">10</data>
+    <data key="d19">19/10/10</data>
+    <data key="d20">IP</data>
+    <data key="d21">Topology Zoo Toolset</data>
+    <data key="d22">1</data>
+    <data key="d23">0</data>
+    <data key="d24">2010_10</data>
+    <data key="d25">2010</data>
+    <data key="d26">2011_09_01</data>
+    <data key="d27">0</data>
+    <node id="0">
+      <data key="d28">539</data>
+      <data key="d29">0.999900240819</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.05333</data>
+      <data key="d32">Trbovlje</data>
+      <data key="d33">1</data>
+      <data key="d34">46.155</data>
+      <data key="d35">0.999891582987</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">0</data>
+    </node>
+    <node id="1">
+      <data key="d28">631</data>
+      <data key="d29">0.999870490472</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.49167</data>
+      <data key="d32">Krsko</data>
+      <data key="d33">1</data>
+      <data key="d34">45.95915</data>
+      <data key="d35">0.999857076057</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">1</data>
+    </node>
+    <node id="2">
+      <data key="d28">733</data>
+      <data key="d29">0.999850115953</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.26044</data>
+      <data key="d32">Celje</data>
+      <data key="d33">1</data>
+      <data key="d34">46.23092</data>
+      <data key="d35">0.999861692837</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">2</data>
+    </node>
+    <node id="3">
+      <data key="d28">595</data>
+      <data key="d29">0.999896909793</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.23555</data>
+      <data key="d32">Lasko</data>
+      <data key="d33">1</data>
+      <data key="d34">46.15463</data>
+      <data key="d35">0.99990594737</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">3</data>
+    </node>
+    <node id="4">
+      <data key="d28">604</data>
+      <data key="d29">0.999856524542</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.35561</data>
+      <data key="d32">Kranj</data>
+      <data key="d33">1</data>
+      <data key="d34">46.23887</data>
+      <data key="d35">0.999905428848</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">4</data>
+    </node>
+    <node id="5">
+      <data key="d28">577</data>
+      <data key="d29">0.999916756596</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.11361</data>
+      <data key="d32">Bled</data>
+      <data key="d33">1</data>
+      <data key="d34">46.36917</data>
+      <data key="d35">0.999875015093</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">5</data>
+    </node>
+    <node id="6">
+      <data key="d28">564</data>
+      <data key="d29">0.999859347203</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.16886</data>
+      <data key="d32">Novo Mesto</data>
+      <data key="d33">1</data>
+      <data key="d34">45.80397</data>
+      <data key="d35">0.999883798885</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">6</data>
+    </node>
+    <node id="7">
+      <data key="d28">251</data>
+      <data key="d29">0.999927461357</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.50513</data>
+      <data key="d32">Ljubljana</data>
+      <data key="d33">1</data>
+      <data key="d34">46.05108</data>
+      <data key="d35">0.999859565103</data>
+      <data key="d36">Large Node</data>
+      <data key="d37">7</data>
+    </node>
+    <node id="8">
+      <data key="d28">656</data>
+      <data key="d29">0.999835853079</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.73321</data>
+      <data key="d32">Tolmin</data>
+      <data key="d33">1</data>
+      <data key="d34">46.18304</data>
+      <data key="d35">0.999897530936</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">8</data>
+    </node>
+    <node id="9">
+      <data key="d28">502</data>
+      <data key="d29">0.999894221011</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.64837</data>
+      <data key="d32">Nova Gorica</data>
+      <data key="d33">1</data>
+      <data key="d34">45.95604</data>
+      <data key="d35">0.999908048697</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">9</data>
+    </node>
+    <node id="10">
+      <data key="d28">338</data>
+      <data key="d29">0.999868269989</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.59206</data>
+      <data key="d32">Portoroz</data>
+      <data key="d33">1</data>
+      <data key="d34">45.51429</data>
+      <data key="d35">0.999886143024</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">10</data>
+    </node>
+    <node id="11">
+      <data key="d28">737</data>
+      <data key="d29">0.99981816716</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.99222</data>
+      <data key="d32">Gornja Radgona</data>
+      <data key="d33">1</data>
+      <data key="d34">46.67333</data>
+      <data key="d35">0.99987475152</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">11</data>
+    </node>
+    <node id="12">
+      <data key="d28">736</data>
+      <data key="d29">0.999834351807</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">16.03781</data>
+      <data key="d32">Radenci</data>
+      <data key="d33">1</data>
+      <data key="d34">46.64201</data>
+      <data key="d35">0.999924334024</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">12</data>
+    </node>
+    <node id="13">
+      <data key="d28">302</data>
+      <data key="d29">0.999925920897</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.63972</data>
+      <data key="d32">Rogasja Slatina</data>
+      <data key="d33">1</data>
+      <data key="d34">46.2375</data>
+      <data key="d35">0.999850793687</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">13</data>
+    </node>
+    <node id="14">
+      <data key="d28">674</data>
+      <data key="d29">0.999912857054</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.04111</data>
+      <data key="d32">Senozece</data>
+      <data key="d33">1</data>
+      <data key="d34">45.72111</data>
+      <data key="d35">0.999856714897</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">14</data>
+    </node>
+    <node id="15">
+      <data key="d28">438</data>
+      <data key="d29">0.999881940301</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.06694</data>
+      <data key="d32">Jesenice</data>
+      <data key="d33">1</data>
+      <data key="d34">46.43056</data>
+      <data key="d35">0.999926499566</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">15</data>
+    </node>
+    <node id="16">
+      <data key="d28">252</data>
+      <data key="d29">0.999862313403</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.87333</data>
+      <data key="d32">Sezana</data>
+      <data key="d33">1</data>
+      <data key="d34">45.70924</data>
+      <data key="d35">0.999897615261</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">16</data>
+    </node>
+    <node id="17">
+      <data key="d28">403</data>
+      <data key="d29">0.999921163489</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.97028</data>
+      <data key="d32">Divaca</data>
+      <data key="d33">1</data>
+      <data key="d34">45.68472</data>
+      <data key="d35">0.999899426447</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">17</data>
+    </node>
+    <node id="18">
+      <data key="d28">537</data>
+      <data key="d29">0.999873264213</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.21667</data>
+      <data key="d32">Postojna</data>
+      <data key="d33">1</data>
+      <data key="d34">45.77694</data>
+      <data key="d35">0.999883375932</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">18</data>
+    </node>
+    <node id="19">
+      <data key="d28">687</data>
+      <data key="d29">0.999881893537</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.90946</data>
+      <data key="d32">Ajdovscina</data>
+      <data key="d33">1</data>
+      <data key="d34">45.88601</data>
+      <data key="d35">0.999810544012</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">19</data>
+    </node>
+    <node id="20">
+      <data key="d28">716</data>
+      <data key="d29">0.999895792972</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.86333</data>
+      <data key="d32">Kovevje</data>
+      <data key="d33">1</data>
+      <data key="d34">45.64333</data>
+      <data key="d35">0.999810267011</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">20</data>
+    </node>
+    <node id="21">
+      <data key="d28">414</data>
+      <data key="d29">0.999926913681</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.61207</data>
+      <data key="d32">Kamnik</data>
+      <data key="d33">1</data>
+      <data key="d34">46.22587</data>
+      <data key="d35">0.99991720608</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">21</data>
+    </node>
+    <node id="22">
+      <data key="d28">540</data>
+      <data key="d29">0.999870132418</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.66194</data>
+      <data key="d32">Izola</data>
+      <data key="d33">1</data>
+      <data key="d34">45.53694</data>
+      <data key="d35">0.999875376394</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">22</data>
+    </node>
+    <node id="23">
+      <data key="d28">657</data>
+      <data key="d29">0.999922490918</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">13.72944</data>
+      <data key="d32">Koper</data>
+      <data key="d33">1</data>
+      <data key="d34">45.54694</data>
+      <data key="d35">0.999867094669</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">23</data>
+    </node>
+    <node id="24">
+      <data key="d28">512</data>
+      <data key="d29">0.99981942577</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.08056</data>
+      <data key="d32">Slovenj Gradec</data>
+      <data key="d33">1</data>
+      <data key="d34">46.51028</data>
+      <data key="d35">0.999869743386</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">24</data>
+    </node>
+    <node id="25">
+      <data key="d28">609</data>
+      <data key="d29">0.999925814635</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.11028</data>
+      <data key="d32">Velenje</data>
+      <data key="d33">1</data>
+      <data key="d34">46.35917</data>
+      <data key="d35">0.999903459019</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">25</data>
+    </node>
+    <node id="26">
+      <data key="d28">594</data>
+      <data key="d29">0.999868087188</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">16.16639</data>
+      <data key="d32">Murska Sobota</data>
+      <data key="d33">1</data>
+      <data key="d34">46.6625</data>
+      <data key="d35">0.999893343401</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">26</data>
+    </node>
+    <node id="27">
+      <data key="d28">409</data>
+      <data key="d29">0.999822704636</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">16.1975</data>
+      <data key="d32">Ljutomer</data>
+      <data key="d33">1</data>
+      <data key="d34">46.52083</data>
+      <data key="d35">0.99989723295</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">27</data>
+    </node>
+    <node id="28">
+      <data key="d28">456</data>
+      <data key="d29">0.999884657666</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">16.15444</data>
+      <data key="d32">Ormoz</data>
+      <data key="d33">1</data>
+      <data key="d34">46.41139</data>
+      <data key="d35">0.999888631636</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">28</data>
+    </node>
+    <node id="29">
+      <data key="d28">648</data>
+      <data key="d29">0.999896202009</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.87018</data>
+      <data key="d32">Ptuj</data>
+      <data key="d33">1</data>
+      <data key="d34">46.42005</data>
+      <data key="d35">0.999898791675</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">29</data>
+    </node>
+    <node id="30">
+      <data key="d28">328</data>
+      <data key="d29">0.999889724796</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.64667</data>
+      <data key="d32">Maribor</data>
+      <data key="d33">1</data>
+      <data key="d34">46.55472</data>
+      <data key="d35">0.999911139195</data>
+      <data key="d36">Large Node</data>
+      <data key="d37">30</data>
+    </node>
+    <node id="31">
+      <data key="d28">712</data>
+      <data key="d29">0.99991679421</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.57444</data>
+      <data key="d32">Slovenska Bistrica</data>
+      <data key="d33">1</data>
+      <data key="d34">46.39278</data>
+      <data key="d35">0.999915065308</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">31</data>
+    </node>
+    <node id="32">
+      <data key="d28">720</data>
+      <data key="d29">0.999873056987</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">15.01917</data>
+      <data key="d32">Dravograd</data>
+      <data key="d33">1</data>
+      <data key="d34">46.58806</data>
+      <data key="d35">0.999879679956</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">32</data>
+    </node>
+    <node id="33">
+      <data key="d28">736</data>
+      <data key="d29">0.99988088462</data>
+      <data key="d30">Slovenia</data>
+      <data key="d31">14.96917</data>
+      <data key="d32">Ravne na Koroskem</data>
+      <data key="d33">1</data>
+      <data key="d34">46.54306</data>
+      <data key="d35">0.999885708916</data>
+      <data key="d36">Small Node</data>
+      <data key="d37">33</data>
+    </node>
+    <edge source="0" target="3">
+      <data key="d38">1</data>
+      <data key="d39">0.0713272709889</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0713272709889</data>
+      <data key="d42">0</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999873697048</data>
+    </edge>
+    <edge source="0" target="7">
+      <data key="d38">1</data>
+      <data key="d39">0.222667734224</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.222667734224</data>
+      <data key="d42">1</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99987327916</data>
+    </edge>
+    <edge source="1" target="13">
+      <data key="d38">1</data>
+      <data key="d39">0.167645016697</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.167645016697</data>
+      <data key="d42">2</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99986040136</data>
+    </edge>
+    <edge source="1" target="6">
+      <data key="d38">1</data>
+      <data key="d39">0.154318582289</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.154318582289</data>
+      <data key="d42">3</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999902800481</data>
+    </edge>
+    <edge source="2" target="25">
+      <data key="d38">1</data>
+      <data key="d39">0.0932158636135</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0932158636135</data>
+      <data key="d42">4</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999899096299</data>
+    </edge>
+    <edge source="2" target="3">
+      <data key="d38">1</data>
+      <data key="d39">0.0441952073377</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0441952073377</data>
+      <data key="d42">5</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99989043784</data>
+    </edge>
+    <edge source="2" target="21">
+      <data key="d38">1</data>
+      <data key="d39">0.253469437617</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.253469437617</data>
+      <data key="d42">6</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999944780447</data>
+    </edge>
+    <edge source="2" target="31">
+      <data key="d38">1</data>
+      <data key="d39">0.152925013074</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.152925013074</data>
+      <data key="d42">7</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999877844671</data>
+    </edge>
+    <edge source="3" target="0">
+      <data key="d38">1</data>
+      <data key="d39">0.0713272709889</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0713272709889</data>
+      <data key="d42">8</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999847971559</data>
+    </edge>
+    <edge source="3" target="2">
+      <data key="d38">1</data>
+      <data key="d39">0.0441952073377</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0441952073377</data>
+      <data key="d42">9</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99986153104</data>
+    </edge>
+    <edge source="3" target="30">
+      <data key="d38">3</data>
+      <data key="d39">0.277165852234</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.277165852234</data>
+      <data key="d42">10</data>
+      <data key="d43">G</data>
+      <data key="d44">3 GB/s</data>
+      <data key="d45">3000000000.0</data>
+      <data key="d46">0.999887408042</data>
+    </edge>
+    <edge source="3" target="7">
+      <data key="d38">3</data>
+      <data key="d39">0.292100083283</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.292100083283</data>
+      <data key="d42">11</data>
+      <data key="d43">G</data>
+      <data key="d44">3 GB/s</data>
+      <data key="d45">3000000000.0</data>
+      <data key="d46">0.999914329751</data>
+    </edge>
+    <edge source="4" target="7">
+      <data key="d38">1</data>
+      <data key="d39">0.121190187281</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.121190187281</data>
+      <data key="d42">12</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999870645405</data>
+    </edge>
+    <edge source="4" target="23">
+      <data key="d38">10</data>
+      <data key="d39">0.4620807709</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.4620807709</data>
+      <data key="d42">13</data>
+      <data key="d43">G</data>
+      <data key="d44">10 GB/s</data>
+      <data key="d45">10000000000.0</data>
+      <data key="d46">0.999874681278</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="d38">1</data>
+      <data key="d39">0.119773726068</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.119773726068</data>
+      <data key="d42">14</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999907385049</data>
+    </edge>
+    <edge source="4" target="15">
+      <data key="d38">1</data>
+      <data key="d39">0.156260509674</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.156260509674</data>
+      <data key="d42">15</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999825087085</data>
+    </edge>
+    <edge source="5" target="8">
+      <data key="d38">1</data>
+      <data key="d39">0.182032853039</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.182032853039</data>
+      <data key="d42">16</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999911077524</data>
+    </edge>
+    <edge source="5" target="4">
+      <data key="d38">1</data>
+      <data key="d39">0.119773726068</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.119773726068</data>
+      <data key="d42">17</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999879094048</data>
+    </edge>
+    <edge source="6" target="1">
+      <data key="d38">1</data>
+      <data key="d39">0.154318582289</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.154318582289</data>
+      <data key="d42">18</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999873622697</data>
+    </edge>
+    <edge source="6" target="20">
+      <data key="d38">1</data>
+      <data key="d39">0.150886752137</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.150886752137</data>
+      <data key="d42">19</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999902987906</data>
+    </edge>
+    <edge source="7" target="0">
+      <data key="d38">1</data>
+      <data key="d39">0.222667734224</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.222667734224</data>
+      <data key="d42">20</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999842403447</data>
+    </edge>
+    <edge source="7" target="3">
+      <data key="d38">3</data>
+      <data key="d39">0.292100083283</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.292100083283</data>
+      <data key="d42">21</data>
+      <data key="d43">G</data>
+      <data key="d44">3 GB/s</data>
+      <data key="d45">3000000000.0</data>
+      <data key="d46">0.999889576581</data>
+    </edge>
+    <edge source="7" target="4">
+      <data key="d38">1</data>
+      <data key="d39">0.121190187281</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.121190187281</data>
+      <data key="d42">22</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999856737761</data>
+    </edge>
+    <edge source="7" target="9">
+      <data key="d39">0.34054454061</data>
+      <data key="d42">23</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.34054454061</data>
+      <data key="d44">10 GB/s - redundantno</data>
+      <data key="d46">0.999856504734</data>
+    </edge>
+    <edge source="7" target="18">
+      <data key="d38">1</data>
+      <data key="d39">0.191983515467</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.191983515467</data>
+      <data key="d42">24</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999891902331</data>
+    </edge>
+    <edge source="7" target="20">
+      <data key="d38">1</data>
+      <data key="d39">0.270123801539</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.270123801539</data>
+      <data key="d42">25</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999814453687</data>
+    </edge>
+    <edge source="7" target="21">
+      <data key="d38">1</data>
+      <data key="d39">0.107278331079</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.107278331079</data>
+      <data key="d42">26</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999911508912</data>
+    </edge>
+    <edge source="7" target="23">
+      <data key="d39">0.417774246578</data>
+      <data key="d42">27</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.417774246578</data>
+      <data key="d44">10 GB/s - redundantno</data>
+      <data key="d46">0.99986724898</data>
+    </edge>
+    <edge source="7" target="30">
+      <data key="d39">0.528746929799</data>
+      <data key="d42">28</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.528746929799</data>
+      <data key="d44">10 GB/s - redundantno</data>
+      <data key="d46">0.999914831792</data>
+    </edge>
+    <edge source="8" target="9">
+      <data key="d38">1</data>
+      <data key="d39">0.132513740468</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.132513740468</data>
+      <data key="d42">29</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999877819413</data>
+    </edge>
+    <edge source="8" target="5">
+      <data key="d38">1</data>
+      <data key="d39">0.182032853039</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.182032853039</data>
+      <data key="d42">30</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99988810394</data>
+    </edge>
+    <edge source="9" target="8">
+      <data key="d38">1</data>
+      <data key="d39">0.132513740468</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.132513740468</data>
+      <data key="d42">31</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999855515579</data>
+    </edge>
+    <edge source="9" target="19">
+      <data key="d38">1</data>
+      <data key="d39">0.109997257187</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.109997257187</data>
+      <data key="d42">32</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999940475877</data>
+    </edge>
+    <edge source="9" target="7">
+      <data key="d39">0.34054454061</data>
+      <data key="d42">33</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.34054454061</data>
+      <data key="d44">10 GB/s - redundantno</data>
+      <data key="d46">0.999881438884</data>
+    </edge>
+    <edge source="10" target="17">
+      <data key="d38">1</data>
+      <data key="d39">0.177863175574</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.177863175574</data>
+      <data key="d42">34</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99985729453</data>
+    </edge>
+    <edge source="10" target="22">
+      <data key="d38">10</data>
+      <data key="d39">0.0304816973312</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0304816973312</data>
+      <data key="d42">35</data>
+      <data key="d43">G</data>
+      <data key="d44">10 GB/s</data>
+      <data key="d45">10000000000.0</data>
+      <data key="d46">0.999893606009</data>
+    </edge>
+    <edge source="11" target="12">
+      <data key="d38">1</data>
+      <data key="d39">0.0250172979921</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0250172979921</data>
+      <data key="d42">36</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999913012854</data>
+    </edge>
+    <edge source="11" target="30">
+      <data key="d38">1</data>
+      <data key="d39">0.149940216459</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.149940216459</data>
+      <data key="d42">37</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999932269071</data>
+    </edge>
+    <edge source="12" target="26">
+      <data key="d38">1</data>
+      <data key="d39">0.0511999952792</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0511999952792</data>
+      <data key="d42">38</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999902636849</data>
+    </edge>
+    <edge source="12" target="11">
+      <data key="d38">1</data>
+      <data key="d39">0.0250172979921</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0250172979921</data>
+      <data key="d42">39</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999905322718</data>
+    </edge>
+    <edge source="13" target="1">
+      <data key="d38">1</data>
+      <data key="d39">0.167645016697</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.167645016697</data>
+      <data key="d42">40</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999821119992</data>
+    </edge>
+    <edge source="13" target="29">
+      <data key="d38">1</data>
+      <data key="d39">0.136847000207</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.136847000207</data>
+      <data key="d42">41</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999767285323</data>
+    </edge>
+    <edge source="14" target="16">
+      <data key="d38">1</data>
+      <data key="d39">0.0665363448129</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0665363448129</data>
+      <data key="d42">42</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999879896617</data>
+    </edge>
+    <edge source="14" target="17">
+      <data key="d38">1</data>
+      <data key="d39">0.0347009188157</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0347009188157</data>
+      <data key="d42">43</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999875210764</data>
+    </edge>
+    <edge source="14" target="18">
+      <data key="d38">1</data>
+      <data key="d39">0.0760748418485</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0760748418485</data>
+      <data key="d42">44</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999904891034</data>
+    </edge>
+    <edge source="15" target="4">
+      <data key="d38">1</data>
+      <data key="d39">0.156260509674</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.156260509674</data>
+      <data key="d42">45</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999836094427</data>
+    </edge>
+    <edge source="16" target="14">
+      <data key="d38">1</data>
+      <data key="d39">0.0665363448129</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0665363448129</data>
+      <data key="d42">46</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999772731095</data>
+    </edge>
+    <edge source="17" target="10">
+      <data key="d38">1</data>
+      <data key="d39">0.177863175574</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.177863175574</data>
+      <data key="d42">47</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99991194362</data>
+    </edge>
+    <edge source="17" target="19">
+      <data key="d38">1</data>
+      <data key="d39">0.116241131503</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.116241131503</data>
+      <data key="d42">48</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999881016336</data>
+    </edge>
+    <edge source="17" target="14">
+      <data key="d38">1</data>
+      <data key="d39">0.0347009188157</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0347009188157</data>
+      <data key="d42">49</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999910668318</data>
+    </edge>
+    <edge source="17" target="23">
+      <data key="d38">1</data>
+      <data key="d39">0.122975651389</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.122975651389</data>
+      <data key="d42">50</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999914980476</data>
+    </edge>
+    <edge source="18" target="14">
+      <data key="d38">1</data>
+      <data key="d39">0.0760748418485</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0760748418485</data>
+      <data key="d42">51</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999940395696</data>
+    </edge>
+    <edge source="18" target="7">
+      <data key="d38">1</data>
+      <data key="d39">0.191983515467</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.191983515467</data>
+      <data key="d42">52</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999917435433</data>
+    </edge>
+    <edge source="19" target="9">
+      <data key="d38">1</data>
+      <data key="d39">0.109997257187</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.109997257187</data>
+      <data key="d42">53</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999862462491</data>
+    </edge>
+    <edge source="19" target="17">
+      <data key="d38">1</data>
+      <data key="d39">0.116241131503</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.116241131503</data>
+      <data key="d42">54</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999894159536</data>
+    </edge>
+    <edge source="20" target="6">
+      <data key="d38">1</data>
+      <data key="d39">0.150886752137</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.150886752137</data>
+      <data key="d42">55</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999897714728</data>
+    </edge>
+    <edge source="20" target="7">
+      <data key="d38">1</data>
+      <data key="d39">0.270123801539</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.270123801539</data>
+      <data key="d42">56</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99988472256</data>
+    </edge>
+    <edge source="21" target="2">
+      <data key="d38">1</data>
+      <data key="d39">0.253469437617</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.253469437617</data>
+      <data key="d42">57</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999881199481</data>
+    </edge>
+    <edge source="21" target="7">
+      <data key="d38">1</data>
+      <data key="d39">0.107278331079</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.107278331079</data>
+      <data key="d42">58</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999810496831</data>
+    </edge>
+    <edge source="22" target="10">
+      <data key="d38">10</data>
+      <data key="d39">0.0304816973312</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0304816973312</data>
+      <data key="d42">59</data>
+      <data key="d43">G</data>
+      <data key="d44">10 GB/s</data>
+      <data key="d45">10000000000.0</data>
+      <data key="d46">0.999884750051</data>
+    </edge>
+    <edge source="22" target="23">
+      <data key="d38">10</data>
+      <data key="d39">0.0273055769058</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0273055769058</data>
+      <data key="d42">60</data>
+      <data key="d43">G</data>
+      <data key="d44">10 GB/s</data>
+      <data key="d45">10000000000.0</data>
+      <data key="d46">0.999873002225</data>
+    </edge>
+    <edge source="23" target="17">
+      <data key="d38">1</data>
+      <data key="d39">0.122975651389</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.122975651389</data>
+      <data key="d42">61</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999851348732</data>
+    </edge>
+    <edge source="23" target="4">
+      <data key="d38">10</data>
+      <data key="d39">0.4620807709</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.4620807709</data>
+      <data key="d42">62</data>
+      <data key="d43">G</data>
+      <data key="d44">10 GB/s</data>
+      <data key="d45">10000000000.0</data>
+      <data key="d46">0.999872129438</data>
+    </edge>
+    <edge source="23" target="22">
+      <data key="d38">10</data>
+      <data key="d39">0.0273055769058</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0273055769058</data>
+      <data key="d42">63</data>
+      <data key="d43">G</data>
+      <data key="d44">10 GB/s</data>
+      <data key="d45">10000000000.0</data>
+      <data key="d46">0.999861053801</data>
+    </edge>
+    <edge source="23" target="7">
+      <data key="d39">0.417774246578</data>
+      <data key="d42">64</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.417774246578</data>
+      <data key="d44">10 GB/s - redundantno</data>
+      <data key="d46">0.999848476126</data>
+    </edge>
+    <edge source="24" target="32">
+      <data key="d38">1</data>
+      <data key="d39">0.0500089887759</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0500089887759</data>
+      <data key="d42">65</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999909980895</data>
+    </edge>
+    <edge source="24" target="25">
+      <data key="d38">1</data>
+      <data key="d39">0.0861691071156</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0861691071156</data>
+      <data key="d42">66</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999866338676</data>
+    </edge>
+    <edge source="25" target="24">
+      <data key="d38">1</data>
+      <data key="d39">0.0861691071156</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0861691071156</data>
+      <data key="d42">67</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99988340018</data>
+    </edge>
+    <edge source="25" target="32">
+      <data key="d38">1</data>
+      <data key="d39">0.134111517417</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.134111517417</data>
+      <data key="d42">68</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999916791232</data>
+    </edge>
+    <edge source="25" target="2">
+      <data key="d38">1</data>
+      <data key="d39">0.0932158636135</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0932158636135</data>
+      <data key="d42">69</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999863132692</data>
+    </edge>
+    <edge source="26" target="27">
+      <data key="d38">1</data>
+      <data key="d39">0.0809603340764</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0809603340764</data>
+      <data key="d42">70</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999936073108</data>
+    </edge>
+    <edge source="26" target="12">
+      <data key="d38">1</data>
+      <data key="d39">0.0511999952792</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0511999952792</data>
+      <data key="d42">71</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999872406631</data>
+    </edge>
+    <edge source="27" target="26">
+      <data key="d38">1</data>
+      <data key="d39">0.0809603340764</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0809603340764</data>
+      <data key="d42">72</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999907099026</data>
+    </edge>
+    <edge source="27" target="28">
+      <data key="d38">1</data>
+      <data key="d39">0.0640723891316</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0640723891316</data>
+      <data key="d42">73</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999793892239</data>
+    </edge>
+    <edge source="28" target="27">
+      <data key="d38">1</data>
+      <data key="d39">0.0640723891316</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0640723891316</data>
+      <data key="d42">74</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999892243047</data>
+    </edge>
+    <edge source="28" target="29">
+      <data key="d38">1</data>
+      <data key="d39">0.110848166075</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.110848166075</data>
+      <data key="d42">75</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.9999049689</data>
+    </edge>
+    <edge source="29" target="28">
+      <data key="d38">1</data>
+      <data key="d39">0.110848166075</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.110848166075</data>
+      <data key="d42">76</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999903356227</data>
+    </edge>
+    <edge source="29" target="13">
+      <data key="d38">1</data>
+      <data key="d39">0.136847000207</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.136847000207</data>
+      <data key="d42">77</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999922868175</data>
+    </edge>
+    <edge source="29" target="30">
+      <data key="d38">1</data>
+      <data key="d39">0.115554466708</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.115554466708</data>
+      <data key="d42">78</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999905941241</data>
+    </edge>
+    <edge source="30" target="32">
+      <data key="d38">1</data>
+      <data key="d39">0.244484911134</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.244484911134</data>
+      <data key="d42">79</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999885169693</data>
+    </edge>
+    <edge source="30" target="3">
+      <data key="d38">3</data>
+      <data key="d39">0.277165852234</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.277165852234</data>
+      <data key="d42">80</data>
+      <data key="d43">G</data>
+      <data key="d44">3 GB/s</data>
+      <data key="d45">3000000000.0</data>
+      <data key="d46">0.999815101466</data>
+    </edge>
+    <edge source="30" target="7">
+      <data key="d39">0.528746929799</data>
+      <data key="d42">81</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.528746929799</data>
+      <data key="d44">10 GB/s - redundantno</data>
+      <data key="d46">0.999835874158</data>
+    </edge>
+    <edge source="30" target="11">
+      <data key="d38">1</data>
+      <data key="d39">0.149940216459</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.149940216459</data>
+      <data key="d42">82</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999895432794</data>
+    </edge>
+    <edge source="30" target="29">
+      <data key="d38">1</data>
+      <data key="d39">0.115554466708</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.115554466708</data>
+      <data key="d42">83</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999924994246</data>
+    </edge>
+    <edge source="30" target="31">
+      <data key="d38">1</data>
+      <data key="d39">0.0957278752054</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0957278752054</data>
+      <data key="d42">84</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999848223884</data>
+    </edge>
+    <edge source="31" target="2">
+      <data key="d38">1</data>
+      <data key="d39">0.152925013074</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.152925013074</data>
+      <data key="d42">85</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999839696093</data>
+    </edge>
+    <edge source="31" target="30">
+      <data key="d38">1</data>
+      <data key="d39">0.0957278752054</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0957278752054</data>
+      <data key="d42">86</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999887234171</data>
+    </edge>
+    <edge source="32" target="24">
+      <data key="d38">1</data>
+      <data key="d39">0.0500089887759</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0500089887759</data>
+      <data key="d42">87</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999883199491</data>
+    </edge>
+    <edge source="32" target="25">
+      <data key="d38">1</data>
+      <data key="d39">0.134111517417</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.134111517417</data>
+      <data key="d42">88</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.99987597081</data>
+    </edge>
+    <edge source="32" target="30">
+      <data key="d38">1</data>
+      <data key="d39">0.244484911134</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.244484911134</data>
+      <data key="d42">89</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999905254367</data>
+    </edge>
+    <edge source="32" target="33">
+      <data key="d38">1</data>
+      <data key="d39">0.0319989498132</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0319989498132</data>
+      <data key="d42">90</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999906340841</data>
+    </edge>
+    <edge source="33" target="32">
+      <data key="d38">1</data>
+      <data key="d39">0.0319989498132</data>
+      <data key="d40">1000</data>
+      <data key="d41">0.0319989498132</data>
+      <data key="d42">91</data>
+      <data key="d43">G</data>
+      <data key="d44">1 GB/s</data>
+      <data key="d45">1000000000.0</data>
+      <data key="d46">0.999937982678</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,1723 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="int" for="edge" id="d49" />
+  <key attr.name="wire_latency" attr.type="int" for="edge" id="d48" />
+  <key attr.name="LinkSpeedUnits" attr.type="string" for="edge" id="d47" />
+  <key attr.name="LinkSpeedRaw" attr.type="double" for="edge" id="d46" />
+  <key attr.name="LinkSpeed" attr.type="string" for="edge" id="d45" />
+  <key attr.name="LinkNote" attr.type="string" for="edge" id="d44" />
+  <key attr.name="reliability" attr.type="double" for="edge" id="d43" />
+  <key attr.name="LinkLabel" attr.type="string" for="edge" id="d42" />
+  <key attr.name="index" attr.type="int" for="edge" id="d41" />
+  <key attr.name="weight" attr.type="double" for="edge" id="d40" />
+  <key attr.name="capacity" attr.type="int" for="edge" id="d39" />
+  <key attr.name="wire_latency" attr.type="double" for="edge" id="d38" />
+  <key attr.name="LinkType" attr.type="string" for="edge" id="d37" />
+  <key attr.name="id" attr.type="int" for="node" id="d36" />
+  <key attr.name="reliability" attr.type="double" for="node" id="d35" />
+  <key attr.name="ctrl_rel" attr.type="double" for="node" id="d34" />
+  <key attr.name="Latitude" attr.type="double" for="node" id="d33" />
+  <key attr.name="Internal" attr.type="int" for="node" id="d32" />
+  <key attr.name="label" attr.type="string" for="node" id="d31" />
+  <key attr.name="Longitude" attr.type="double" for="node" id="d30" />
+  <key attr.name="Country" attr.type="string" for="node" id="d29" />
+  <key attr.name="load" attr.type="int" for="node" id="d28" />
+  <key attr.name="Testbed" attr.type="int" for="graph" id="d27" />
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d26" />
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d25" />
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d24" />
+  <key attr.name="Transit" attr.type="int" for="graph" id="d23" />
+  <key attr.name="Developed" attr.type="int" for="graph" id="d22" />
+  <key attr.name="Creator" attr.type="string" for="graph" id="d21" />
+  <key attr.name="Layer" attr.type="string" for="graph" id="d20" />
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d19" />
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d18" />
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d17" />
+  <key attr.name="SourceGitVersion" attr.type="string" for="graph" id="d16" />
+  <key attr.name="IX" attr.type="int" for="graph" id="d15" />
+  <key attr.name="Customer" attr.type="int" for="graph" id="d14" />
+  <key attr.name="ToolsetVersion" attr.type="string" for="graph" id="d13" />
+  <key attr.name="label" attr.type="string" for="graph" id="d12" />
+  <key attr.name="Commercial" attr.type="int" for="graph" id="d11" />
+  <key attr.name="Backbone" attr.type="int" for="graph" id="d10" />
+  <key attr.name="Type" attr.type="string" for="graph" id="d9" />
+  <key attr.name="DateType" attr.type="string" for="graph" id="d8" />
+  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
+  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
+  <key attr.name="Access" attr.type="int" for="graph" id="d5" />
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
+  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <data key="d0">21/10/10</data>
+    <data key="d1">Japan, USA</data>
+    <data key="d2">Country+</data>
+    <data key="d3">IIJ</data>
+    <data key="d4">Primary</data>
+    <data key="d5">0</data>
+    <data key="d6">http://www.iij.ad.jp/en/network/backbone/index.html</data>
+    <data key="d7">1.0</data>
+    <data key="d8">Historic</data>
+    <data key="d9">COM</data>
+    <data key="d10">1</data>
+    <data key="d11">0</data>
+    <data key="d12">Iij</data>
+    <data key="d13">0.3.34dev-20120328</data>
+    <data key="d14">1</data>
+    <data key="d15">0</data>
+    <data key="d16">e278b1b</data>
+    <data key="d17">=</data>
+    <data key="d18">10</data>
+    <data key="d19">3/08/10</data>
+    <data key="d20">IP</data>
+    <data key="d21">Topology Zoo Toolset</data>
+    <data key="d22">1</data>
+    <data key="d23">0</data>
+    <data key="d24">2010_10</data>
+    <data key="d25">2010</data>
+    <data key="d26">2011_09_01</data>
+    <data key="d27">0</data>
+    <node id="0">
+      <data key="d28">539</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.5813</data>
+      <data key="d31">Tokyo DC1</data>
+      <data key="d32">1</data>
+      <data key="d33">35.61488</data>
+      <data key="d34">0.999900240819</data>
+      <data key="d35">0.999891582987</data>
+      <data key="d36">0</data>
+    </node>
+    <node id="1">
+      <data key="d28">631</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.5813</data>
+      <data key="d31">Tokyo DC2</data>
+      <data key="d32">1</data>
+      <data key="d33">35.61488</data>
+      <data key="d34">0.999870490472</data>
+      <data key="d35">0.999857076057</data>
+      <data key="d36">1</data>
+    </node>
+    <node id="2">
+      <data key="d28">733</data>
+      <data key="d29">Japan</data>
+      <data key="d30">130.3</data>
+      <data key="d31">Sendai DC</data>
+      <data key="d32">1</data>
+      <data key="d33">31.81667</data>
+      <data key="d34">0.999850115953</data>
+      <data key="d35">0.999861692837</data>
+      <data key="d36">2</data>
+    </node>
+    <node id="3">
+      <data key="d28">595</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.65657</data>
+      <data key="d31">Saitama DC</data>
+      <data key="d32">1</data>
+      <data key="d33">35.90807</data>
+      <data key="d34">0.999896909793</data>
+      <data key="d35">0.99990594737</data>
+      <data key="d36">3</data>
+    </node>
+    <node id="4">
+      <data key="d28">604</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.65</data>
+      <data key="d31">Nerima DC</data>
+      <data key="d32">1</data>
+      <data key="d33">35.73333</data>
+      <data key="d34">0.999856524542</data>
+      <data key="d35">0.999905428848</data>
+      <data key="d36">4</data>
+    </node>
+    <node id="5">
+      <data key="d28">577</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.6425</data>
+      <data key="d31">Yokohama DC1</data>
+      <data key="d32">1</data>
+      <data key="d33">35.44778</data>
+      <data key="d34">0.999916756596</data>
+      <data key="d35">0.999875015093</data>
+      <data key="d36">5</data>
+    </node>
+    <node id="6">
+      <data key="d28">564</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.7049</data>
+      <data key="d31">Shibuya DC</data>
+      <data key="d32">1</data>
+      <data key="d33">35.65758</data>
+      <data key="d34">0.999859347203</data>
+      <data key="d35">0.999883798885</data>
+      <data key="d36">6</data>
+    </node>
+    <node id="7">
+      <data key="d28">251</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.7115</data>
+      <data key="d31">Ikebukuro DC</data>
+      <data key="d32">1</data>
+      <data key="d33">35.73023</data>
+      <data key="d34">0.999927461357</data>
+      <data key="d35">0.999859565103</data>
+      <data key="d36">7</data>
+    </node>
+    <node id="8">
+      <data key="d28">656</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.6425</data>
+      <data key="d31">Yokohama DC2</data>
+      <data key="d32">1</data>
+      <data key="d33">35.44778</data>
+      <data key="d34">0.999835853079</data>
+      <data key="d35">0.999897530936</data>
+      <data key="d36">8</data>
+    </node>
+    <node id="9">
+      <data key="d28">502</data>
+      <data key="d29">Japan</data>
+      <data key="d30">136.90641</data>
+      <data key="d31">Nagoya DC</data>
+      <data key="d32">1</data>
+      <data key="d33">35.18147</data>
+      <data key="d34">0.999894221011</data>
+      <data key="d35">0.999908048697</data>
+      <data key="d36">9</data>
+    </node>
+    <node id="10">
+      <data key="d28">338</data>
+      <data key="d31">JPNAP Tokyo 1</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999868269989</data>
+      <data key="d35">0.999886143024</data>
+      <data key="d36">10</data>
+    </node>
+    <node id="11">
+      <data key="d28">737</data>
+      <data key="d31">China</data>
+      <data key="d32">0</data>
+      <data key="d34">0.99981816716</data>
+      <data key="d35">0.99987475152</data>
+      <data key="d36">11</data>
+    </node>
+    <node id="12">
+      <data key="d28">736</data>
+      <data key="d31">JPNAP Osaka</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999834351807</data>
+      <data key="d35">0.999924334024</data>
+      <data key="d36">12</data>
+    </node>
+    <node id="13">
+      <data key="d28">302</data>
+      <data key="d31">JPNAP Tokyo 2</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999925920897</data>
+      <data key="d35">0.999850793687</data>
+      <data key="d36">13</data>
+    </node>
+    <node id="14">
+      <data key="d28">674</data>
+      <data key="d31">NYIIX</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999912857054</data>
+      <data key="d35">0.999856714897</data>
+      <data key="d36">14</data>
+    </node>
+    <node id="15">
+      <data key="d28">438</data>
+      <data key="d31">PAIX</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999881940301</data>
+      <data key="d35">0.999926499566</data>
+      <data key="d36">15</data>
+    </node>
+    <node id="16">
+      <data key="d28">252</data>
+      <data key="d31">LAIIX</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999862313403</data>
+      <data key="d35">0.999897615261</data>
+      <data key="d36">16</data>
+    </node>
+    <node id="17">
+      <data key="d28">403</data>
+      <data key="d31">dix-ie</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999921163489</data>
+      <data key="d35">0.999899426447</data>
+      <data key="d36">17</data>
+    </node>
+    <node id="18">
+      <data key="d28">537</data>
+      <data key="d31">Equinix exchange</data>
+      <data key="d32">0</data>
+      <data key="d34">0.999873264213</data>
+      <data key="d35">0.999883375932</data>
+      <data key="d36">18</data>
+    </node>
+    <node id="19">
+      <data key="d28">687</data>
+      <data key="d29">United States</data>
+      <data key="d30">-74.00597</data>
+      <data key="d31">Newyork DC</data>
+      <data key="d32">1</data>
+      <data key="d33">40.71427</data>
+      <data key="d34">0.999881893537</data>
+      <data key="d35">0.999810544012</data>
+      <data key="d36">19</data>
+    </node>
+    <node id="20">
+      <data key="d28">716</data>
+      <data key="d29">Japan</data>
+      <data key="d30">130.41806</data>
+      <data key="d31">Fukuoka DC</data>
+      <data key="d32">1</data>
+      <data key="d33">33.60639</data>
+      <data key="d34">0.999895792972</data>
+      <data key="d35">0.999810267011</data>
+      <data key="d36">20</data>
+    </node>
+    <node id="21">
+      <data key="d28">414</data>
+      <data key="d29">Japan</data>
+      <data key="d30">135.50031</data>
+      <data key="d31">Shinsaibashi DC</data>
+      <data key="d32">1</data>
+      <data key="d33">34.67511</data>
+      <data key="d34">0.999926913681</data>
+      <data key="d35">0.99991720608</data>
+      <data key="d36">21</data>
+    </node>
+    <node id="22">
+      <data key="d28">540</data>
+      <data key="d29">Japan</data>
+      <data key="d30">135.75385</data>
+      <data key="d31">Kyoto DC</data>
+      <data key="d32">1</data>
+      <data key="d33">35.02107</data>
+      <data key="d34">0.999870132418</data>
+      <data key="d35">0.999875376394</data>
+      <data key="d36">22</data>
+    </node>
+    <node id="23">
+      <data key="d28">657</data>
+      <data key="d29">United States</data>
+      <data key="d30">-77.48749</data>
+      <data key="d31">Ashburn DC</data>
+      <data key="d32">1</data>
+      <data key="d33">39.04372</data>
+      <data key="d34">0.999922490918</data>
+      <data key="d35">0.999867094669</data>
+      <data key="d36">23</data>
+    </node>
+    <node id="24">
+      <data key="d28">512</data>
+      <data key="d29">United States</data>
+      <data key="d30">-91.15455</data>
+      <data key="d31">LA DC</data>
+      <data key="d32">1</data>
+      <data key="d33">30.45075</data>
+      <data key="d34">0.99981942577</data>
+      <data key="d35">0.999869743386</data>
+      <data key="d36">24</data>
+    </node>
+    <node id="25">
+      <data key="d28">609</data>
+      <data key="d29">United States</data>
+      <data key="d30">-121.89496</data>
+      <data key="d31">San Jose DC</data>
+      <data key="d32">1</data>
+      <data key="d33">37.33939</data>
+      <data key="d34">0.999925814635</data>
+      <data key="d35">0.999903459019</data>
+      <data key="d36">25</data>
+    </node>
+    <node id="26">
+      <data key="d28">594</data>
+      <data key="d29">United States</data>
+      <data key="d30">-122.14302</data>
+      <data key="d31">PaloAlto DC</data>
+      <data key="d32">1</data>
+      <data key="d33">37.44188</data>
+      <data key="d34">0.999868087188</data>
+      <data key="d35">0.999893343401</data>
+      <data key="d36">26</data>
+    </node>
+    <node id="27">
+      <data key="d28">409</data>
+      <data key="d29">Japan</data>
+      <data key="d30">127.80139</data>
+      <data key="d31">Okinawa</data>
+      <data key="d32">1</data>
+      <data key="d33">26.33583</data>
+      <data key="d34">0.999822704636</data>
+      <data key="d35">0.99989723295</data>
+      <data key="d36">27</data>
+    </node>
+    <node id="28">
+      <data key="d28">456</data>
+      <data key="d29">Japan</data>
+      <data key="d30">141.34694</data>
+      <data key="d31">Sappora DC</data>
+      <data key="d32">1</data>
+      <data key="d33">43.06417</data>
+      <data key="d34">0.999884657666</data>
+      <data key="d35">0.999888631636</data>
+      <data key="d36">28</data>
+    </node>
+    <node id="29">
+      <data key="d28">648</data>
+      <data key="d29">Japan</data>
+      <data key="d30">140.12333</data>
+      <data key="d31">Chiba</data>
+      <data key="d32">1</data>
+      <data key="d33">35.60472</data>
+      <data key="d34">0.999896202009</data>
+      <data key="d35">0.999898791675</data>
+      <data key="d36">29</data>
+    </node>
+    <node id="30">
+      <data key="d28">328</data>
+      <data key="d29">Japan</data>
+      <data key="d30">139.5813</data>
+      <data key="d31">Tokyo</data>
+      <data key="d32">1</data>
+      <data key="d33">35.61488</data>
+      <data key="d34">0.999889724796</data>
+      <data key="d35">0.999911139195</data>
+      <data key="d36">30</data>
+    </node>
+    <node id="31">
+      <data key="d28">712</data>
+      <data key="d29">Japan</data>
+      <data key="d30">137.21139</data>
+      <data key="d31">Toyama</data>
+      <data key="d32">1</data>
+      <data key="d33">36.69528</data>
+      <data key="d34">0.99991679421</data>
+      <data key="d35">0.999915065308</data>
+      <data key="d36">31</data>
+    </node>
+    <node id="32">
+      <data key="d28">720</data>
+      <data key="d29">Japan</data>
+      <data key="d30">136.62556</data>
+      <data key="d31">Kanazawa</data>
+      <data key="d32">1</data>
+      <data key="d33">36.59444</data>
+      <data key="d34">0.999873056987</data>
+      <data key="d35">0.999879679956</data>
+      <data key="d36">32</data>
+    </node>
+    <node id="33">
+      <data key="d28">736</data>
+      <data key="d29">Japan</data>
+      <data key="d30">137.73333</data>
+      <data key="d31">Hamamatsu</data>
+      <data key="d32">1</data>
+      <data key="d33">34.7</data>
+      <data key="d34">0.99988088462</data>
+      <data key="d35">0.999885708916</data>
+      <data key="d36">33</data>
+    </node>
+    <node id="34">
+      <data key="d28">686</data>
+      <data key="d29">Japan</data>
+      <data key="d30">135.50218</data>
+      <data key="d31">Osaka</data>
+      <data key="d32">1</data>
+      <data key="d33">34.69374</data>
+      <data key="d34">0.99987327916</data>
+      <data key="d35">0.999873697048</data>
+      <data key="d36">34</data>
+    </node>
+    <node id="35">
+      <data key="d28">377</data>
+      <data key="d29">Japan</data>
+      <data key="d30">133.935</data>
+      <data key="d31">Okayama</data>
+      <data key="d32">1</data>
+      <data key="d33">34.66167</data>
+      <data key="d34">0.999902800481</data>
+      <data key="d35">0.99986040136</data>
+      <data key="d36">35</data>
+    </node>
+    <node id="36">
+      <data key="d28">438</data>
+      <data key="d29">Japan</data>
+      <data key="d30">132.45937</data>
+      <data key="d31">Hiroshima</data>
+      <data key="d32">1</data>
+      <data key="d33">34.39627</data>
+      <data key="d34">0.99989043784</data>
+      <data key="d35">0.999899096299</data>
+      <data key="d36">36</data>
+    </node>
+    <edge source="0" target="6">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.061679120497</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.061679120497</data>
+      <data key="d41">0</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999944780447</data>
+    </edge>
+    <edge source="0" target="30">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.0</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0</data>
+      <data key="d41">1</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999877844671</data>
+    </edge>
+    <edge source="1" target="6">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.061679120497</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.061679120497</data>
+      <data key="d41">2</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999847971559</data>
+    </edge>
+    <edge source="1" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.0</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0</data>
+      <data key="d41">3</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.99986153104</data>
+    </edge>
+    <edge source="2" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.92054122554</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.92054122554</data>
+      <data key="d41">4</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999887408042</data>
+    </edge>
+    <edge source="2" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.85886439142</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.85886439142</data>
+      <data key="d41">5</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999914329751</data>
+    </edge>
+    <edge source="3" target="6">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.14326864467</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.14326864467</data>
+      <data key="d41">6</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-4x2</data>
+      <data key="d43">0.999870645405</data>
+    </edge>
+    <edge source="3" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.1692307303</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.1692307303</data>
+      <data key="d41">7</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999874681278</data>
+    </edge>
+    <edge source="4" target="6">
+      <data key="d45">10</data>
+      <data key="d38">0.0496685403774</data>
+      <data key="d42">10GEx4</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0496685403774</data>
+      <data key="d41">8</data>
+      <data key="d43">0.999907385049</data>
+      <data key="d44">Ex4</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="5" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.121973936522</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.121973936522</data>
+      <data key="d41">9</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999825087085</data>
+    </edge>
+    <edge source="5" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.0985286188429</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0985286188429</data>
+      <data key="d41">10</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999911077524</data>
+    </edge>
+    <edge source="6" target="0">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.061679120497</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.061679120497</data>
+      <data key="d41">11</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999879094048</data>
+    </edge>
+    <edge source="6" target="1">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.061679120497</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.061679120497</data>
+      <data key="d41">12</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999873622697</data>
+    </edge>
+    <edge source="6" target="2">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.92054122554</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.92054122554</data>
+      <data key="d41">13</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999902987906</data>
+    </edge>
+    <edge source="6" target="3">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.14326864467</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.14326864467</data>
+      <data key="d41">14</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-4x2</data>
+      <data key="d43">0.999842403447</data>
+    </edge>
+    <edge source="6" target="4">
+      <data key="d45">10</data>
+      <data key="d38">0.0496685403774</data>
+      <data key="d42">10GEx4</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0496685403774</data>
+      <data key="d41">15</data>
+      <data key="d43">0.999889576581</data>
+      <data key="d44">Ex4</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="6" target="5">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.121973936522</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.121973936522</data>
+      <data key="d41">16</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999856737761</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="d45">10</data>
+      <data key="d38">0.0411641787443</data>
+      <data key="d42">10GEx12</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0411641787443</data>
+      <data key="d41">17</data>
+      <data key="d43">0.999856504734</data>
+      <data key="d44">Ex12</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="6" target="8">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.121973936522</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.121973936522</data>
+      <data key="d41">18</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999891902331</data>
+    </edge>
+    <edge source="6" target="9">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.31642465533</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.31642465533</data>
+      <data key="d41">19</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999814453687</data>
+    </edge>
+    <edge source="6" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.01593898127</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.01593898127</data>
+      <data key="d41">20</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999911508912</data>
+    </edge>
+    <edge source="6" target="21">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.01985064292</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.01985064292</data>
+      <data key="d41">21</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.99986724898</data>
+    </edge>
+    <edge source="6" target="24">
+      <data key="d37">STM-64</data>
+      <data key="d38">55.6235422665</data>
+      <data key="d39">1000</data>
+      <data key="d40">55.6235422665</data>
+      <data key="d41">22</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999914831792</data>
+    </edge>
+    <edge source="6" target="28">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.24605156581</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.24605156581</data>
+      <data key="d41">23</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999877819413</data>
+    </edge>
+    <edge source="6" target="29">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.194485003914</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.194485003914</data>
+      <data key="d41">24</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.99988810394</data>
+    </edge>
+    <edge source="6" target="30">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.061679120497</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.061679120497</data>
+      <data key="d41">25</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999855515579</data>
+    </edge>
+    <edge source="7" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.0294923205</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.0294923205</data>
+      <data key="d41">26</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999940475877</data>
+    </edge>
+    <edge source="7" target="6">
+      <data key="d45">10</data>
+      <data key="d38">0.0411641787443</data>
+      <data key="d42">10GEx12</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0411641787443</data>
+      <data key="d41">27</data>
+      <data key="d43">0.999881438884</data>
+      <data key="d44">Ex12</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="7" target="30">
+      <data key="d45">10</data>
+      <data key="d38">0.0884350614911</data>
+      <data key="d42">10Gex12</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0884350614911</data>
+      <data key="d41">28</data>
+      <data key="d43">0.99985729453</data>
+      <data key="d44">ex12</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="7" target="13">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">29</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999893606009</data>
+    </edge>
+    <edge source="8" target="6">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.121973936522</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.121973936522</data>
+      <data key="d41">30</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999913012854</data>
+    </edge>
+    <edge source="8" target="30">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.0985286188429</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0985286188429</data>
+      <data key="d41">31</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999932269071</data>
+    </edge>
+    <edge source="9" target="33">
+      <data key="d37">STM-1</data>
+      <data key="d38">0.469828314071</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.469828314071</data>
+      <data key="d41">32</data>
+      <data key="d42">STM-1</data>
+      <data key="d43">0.999902636849</data>
+    </edge>
+    <edge source="9" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.706453895008</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.706453895008</data>
+      <data key="d41">33</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999905322718</data>
+    </edge>
+    <edge source="9" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.31642465533</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.31642465533</data>
+      <data key="d41">34</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999821119992</data>
+    </edge>
+    <edge source="9" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.25616212136</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.25616212136</data>
+      <data key="d41">35</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999767285323</data>
+    </edge>
+    <edge source="10" target="30">
+      <data key="d45">30</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">36</data>
+      <data key="d47">G</data>
+      <data key="d42">30Gb/s</data>
+      <data key="d46">30000000000.0</data>
+      <data key="d43">0.999879896617</data>
+    </edge>
+    <edge source="11" target="34">
+      <data key="d37">STM-4</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">37</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999875210764</data>
+    </edge>
+    <edge source="12" target="34">
+      <data key="d45">40</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">38</data>
+      <data key="d47">G</data>
+      <data key="d42">40Gb/s</data>
+      <data key="d46">40000000000.0</data>
+      <data key="d43">0.999904891034</data>
+    </edge>
+    <edge source="13" target="7">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">39</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999836094427</data>
+    </edge>
+    <edge source="14" target="19">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">40</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999772731095</data>
+    </edge>
+    <edge source="15" target="19">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">41</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.99991194362</data>
+    </edge>
+    <edge source="16" target="24">
+      <data key="d45">1</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">42</data>
+      <data key="d47">G</data>
+      <data key="d42">1Gb/s</data>
+      <data key="d46">1000000000.0</data>
+      <data key="d43">0.999881016336</data>
+    </edge>
+    <edge source="17" target="30">
+      <data key="d45">11</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">43</data>
+      <data key="d47">G</data>
+      <data key="d42">11Gb/s</data>
+      <data key="d46">11000000000.0</data>
+      <data key="d43">0.999910668318</data>
+    </edge>
+    <edge source="18" target="24">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">44</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999914980476</data>
+    </edge>
+    <edge source="18" target="25">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">45</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999940395696</data>
+    </edge>
+    <edge source="18" target="23">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">46</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999917435433</data>
+    </edge>
+    <edge source="19" target="24">
+      <data key="d37">STM-16</data>
+      <data key="d38">9.75517721953</data>
+      <data key="d39">1000</data>
+      <data key="d40">9.75517721953</data>
+      <data key="d41">47</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999862462491</data>
+    </edge>
+    <edge source="19" target="25">
+      <data key="d37">STM-64</data>
+      <data key="d38">20.8481956793</data>
+      <data key="d39">1000</data>
+      <data key="d40">20.8481956793</data>
+      <data key="d41">48</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999894159536</data>
+    </edge>
+    <edge source="19" target="15">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">49</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999897714728</data>
+    </edge>
+    <edge source="19" target="14">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">50</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.99988472256</data>
+    </edge>
+    <edge source="19" target="23">
+      <data key="d37">STM-16</data>
+      <data key="d38">1.78032733416</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.78032733416</data>
+      <data key="d41">51</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999881199481</data>
+    </edge>
+    <edge source="20" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.45531919183</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.45531919183</data>
+      <data key="d41">52</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999810496831</data>
+    </edge>
+    <edge source="20" target="27">
+      <data key="d37">STM-4</data>
+      <data key="d38">4.302924576</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.302924576</data>
+      <data key="d41">53</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-4x2</data>
+      <data key="d43">0.999884750051</data>
+    </edge>
+    <edge source="20" target="21">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.45211559751</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.45211559751</data>
+      <data key="d41">54</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999873002225</data>
+    </edge>
+    <edge source="21" target="32">
+      <data key="d37">STM-16</data>
+      <data key="d38">1.20136422566</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.20136422566</data>
+      <data key="d41">55</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999851348732</data>
+    </edge>
+    <edge source="21" target="34">
+      <data key="d45">10</data>
+      <data key="d38">0.0105631190215</data>
+      <data key="d42">10GEx8</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0105631190215</data>
+      <data key="d41">56</data>
+      <data key="d43">0.999872129438</data>
+      <data key="d44">Ex8</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="21" target="35">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.727508981626</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.727508981626</data>
+      <data key="d41">57</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999861053801</data>
+    </edge>
+    <edge source="21" target="36">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.42422059286</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.42422059286</data>
+      <data key="d41">58</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999848476126</data>
+    </edge>
+    <edge source="21" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.01985064292</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.01985064292</data>
+      <data key="d41">59</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999909980895</data>
+    </edge>
+    <edge source="21" target="20">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.45211559751</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.45211559751</data>
+      <data key="d41">60</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999866338676</data>
+    </edge>
+    <edge source="21" target="22">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.22812615248</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.22812615248</data>
+      <data key="d41">61</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.99988340018</data>
+    </edge>
+    <edge source="21" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.95883126804</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.95883126804</data>
+      <data key="d41">62</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999916791232</data>
+    </edge>
+    <edge source="22" target="34">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.218700919647</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.218700919647</data>
+      <data key="d41">63</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999863132692</data>
+    </edge>
+    <edge source="22" target="21">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.22812615248</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.22812615248</data>
+      <data key="d41">64</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999936073108</data>
+    </edge>
+    <edge source="23" target="24">
+      <data key="d37">STM-64</data>
+      <data key="d38">7.97486095666</data>
+      <data key="d39">1000</data>
+      <data key="d40">7.97486095666</data>
+      <data key="d41">65</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999872406631</data>
+    </edge>
+    <edge source="23" target="25">
+      <data key="d37">STM-64</data>
+      <data key="d38">19.548479681</data>
+      <data key="d39">1000</data>
+      <data key="d40">19.548479681</data>
+      <data key="d41">66</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999907099026</data>
+    </edge>
+    <edge source="23" target="18">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">67</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999793892239</data>
+    </edge>
+    <edge source="23" target="19">
+      <data key="d37">STM-16</data>
+      <data key="d38">1.78032733416</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.78032733416</data>
+      <data key="d41">68</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999892243047</data>
+    </edge>
+    <edge source="24" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">57.3107779231</data>
+      <data key="d39">1000</data>
+      <data key="d40">57.3107779231</data>
+      <data key="d41">69</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.9999049689</data>
+    </edge>
+    <edge source="24" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">55.6235422665</data>
+      <data key="d39">1000</data>
+      <data key="d40">55.6235422665</data>
+      <data key="d41">70</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999903356227</data>
+    </edge>
+    <edge source="24" target="16">
+      <data key="d45">1</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">71</data>
+      <data key="d47">G</data>
+      <data key="d42">1Gb/s</data>
+      <data key="d46">1000000000.0</data>
+      <data key="d43">0.999922868175</data>
+    </edge>
+    <edge source="24" target="18">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">72</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999905941241</data>
+    </edge>
+    <edge source="24" target="19">
+      <data key="d37">STM-16</data>
+      <data key="d38">9.75517721953</data>
+      <data key="d39">1000</data>
+      <data key="d40">9.75517721953</data>
+      <data key="d41">73</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999885169693</data>
+    </edge>
+    <edge source="24" target="23">
+      <data key="d37">STM-64</data>
+      <data key="d38">7.97486095666</data>
+      <data key="d39">1000</data>
+      <data key="d40">7.97486095666</data>
+      <data key="d41">74</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999815101466</data>
+    </edge>
+    <edge source="24" target="25">
+      <data key="d37">STM-64</data>
+      <data key="d38">14.8620315332</data>
+      <data key="d39">1000</data>
+      <data key="d40">14.8620315332</data>
+      <data key="d41">75</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999835874158</data>
+    </edge>
+    <edge source="24" target="26">
+      <data key="d37">STM-16</data>
+      <data key="d38">14.978865526</data>
+      <data key="d39">1000</data>
+      <data key="d40">14.978865526</data>
+      <data key="d41">76</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999895432794</data>
+    </edge>
+    <edge source="25" target="18">
+      <data key="d45">10</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">77</data>
+      <data key="d47">G</data>
+      <data key="d42">10Gb/s</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d43">0.999924994246</data>
+    </edge>
+    <edge source="25" target="19">
+      <data key="d37">STM-64</data>
+      <data key="d38">20.8481956793</data>
+      <data key="d39">1000</data>
+      <data key="d40">20.8481956793</data>
+      <data key="d41">78</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999848223884</data>
+    </edge>
+    <edge source="25" target="23">
+      <data key="d37">STM-64</data>
+      <data key="d38">19.548479681</data>
+      <data key="d39">1000</data>
+      <data key="d40">19.548479681</data>
+      <data key="d41">79</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999839696093</data>
+    </edge>
+    <edge source="25" target="24">
+      <data key="d37">STM-64</data>
+      <data key="d38">14.8620315332</data>
+      <data key="d39">1000</data>
+      <data key="d40">14.8620315332</data>
+      <data key="d41">80</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999887234171</data>
+    </edge>
+    <edge source="25" target="26">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.125527093847</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.125527093847</data>
+      <data key="d41">81</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999883199491</data>
+    </edge>
+    <edge source="25" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">42.427871744</data>
+      <data key="d39">1000</data>
+      <data key="d40">42.427871744</data>
+      <data key="d41">82</data>
+      <data key="d44">x4</data>
+      <data key="d42">STM-64x4</data>
+      <data key="d43">0.99987597081</data>
+    </edge>
+    <edge source="26" target="24">
+      <data key="d37">STM-16</data>
+      <data key="d38">14.978865526</data>
+      <data key="d39">1000</data>
+      <data key="d40">14.978865526</data>
+      <data key="d41">83</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999905254367</data>
+    </edge>
+    <edge source="26" target="25">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.125527093847</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.125527093847</data>
+      <data key="d41">84</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999906340841</data>
+    </edge>
+    <edge source="27" target="20">
+      <data key="d37">STM-4</data>
+      <data key="d38">4.302924576</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.302924576</data>
+      <data key="d41">85</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-4x2</data>
+      <data key="d43">0.999937982678</data>
+    </edge>
+    <edge source="28" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.24605156581</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.24605156581</data>
+      <data key="d41">86</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999875042782</data>
+    </edge>
+    <edge source="28" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.27923992564</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.27923992564</data>
+      <data key="d41">87</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999879829181</data>
+    </edge>
+    <edge source="29" target="6">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.194485003914</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.194485003914</data>
+      <data key="d41">88</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999878251528</data>
+    </edge>
+    <edge source="29" target="30">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.249077405644</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.249077405644</data>
+      <data key="d41">89</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999866985502</data>
+    </edge>
+    <edge source="30" target="0">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.0</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0</data>
+      <data key="d41">90</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999888027634</data>
+    </edge>
+    <edge source="30" target="1">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.0</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0</data>
+      <data key="d41">91</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.99988048753</data>
+    </edge>
+    <edge source="30" target="2">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.85886439142</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.85886439142</data>
+      <data key="d41">92</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999926351449</data>
+    </edge>
+    <edge source="30" target="3">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.1692307303</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.1692307303</data>
+      <data key="d41">93</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.99992015035</data>
+    </edge>
+    <edge source="30" target="5">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.0985286188429</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0985286188429</data>
+      <data key="d41">94</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999917042424</data>
+    </edge>
+    <edge source="30" target="6">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.061679120497</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.061679120497</data>
+      <data key="d41">95</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.99989954524</data>
+    </edge>
+    <edge source="30" target="7">
+      <data key="d45">10</data>
+      <data key="d38">0.0884350614911</data>
+      <data key="d42">10Gex12</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0884350614911</data>
+      <data key="d41">96</data>
+      <data key="d43">0.999920864235</data>
+      <data key="d44">ex12</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="30" target="8">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.0985286188429</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.0985286188429</data>
+      <data key="d41">97</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.99991279163</data>
+    </edge>
+    <edge source="30" target="9">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.25616212136</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.25616212136</data>
+      <data key="d41">98</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.99990186996</data>
+    </edge>
+    <edge source="30" target="10">
+      <data key="d45">30</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">99</data>
+      <data key="d47">G</data>
+      <data key="d42">30Gb/s</data>
+      <data key="d46">30000000000.0</data>
+      <data key="d43">0.999920157468</data>
+    </edge>
+    <edge source="30" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.95496484723</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.95496484723</data>
+      <data key="d41">100</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999906710557</data>
+    </edge>
+    <edge source="30" target="17">
+      <data key="d45">11</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">101</data>
+      <data key="d47">G</data>
+      <data key="d42">11Gb/s</data>
+      <data key="d46">11000000000.0</data>
+      <data key="d43">0.999858598925</data>
+    </edge>
+    <edge source="30" target="21">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.95883126804</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.95883126804</data>
+      <data key="d41">102</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999864933714</data>
+    </edge>
+    <edge source="30" target="25">
+      <data key="d37">STM-64</data>
+      <data key="d38">42.427871744</data>
+      <data key="d39">1000</data>
+      <data key="d40">42.427871744</data>
+      <data key="d41">103</data>
+      <data key="d44">x4</data>
+      <data key="d42">STM-64x4</data>
+      <data key="d43">0.999905852503</data>
+    </edge>
+    <edge source="30" target="33">
+      <data key="d37">STM-1</data>
+      <data key="d38">0.99803687185</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.99803687185</data>
+      <data key="d41">104</data>
+      <data key="d42">STM-1</data>
+      <data key="d43">0.999820554281</data>
+    </edge>
+    <edge source="30" target="28">
+      <data key="d37">STM-64</data>
+      <data key="d38">4.27923992564</data>
+      <data key="d39">1000</data>
+      <data key="d40">4.27923992564</data>
+      <data key="d41">105</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999851641989</data>
+    </edge>
+    <edge source="30" target="29">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.249077405644</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.249077405644</data>
+      <data key="d41">106</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999910103236</data>
+    </edge>
+    <edge source="30" target="31">
+      <data key="d37">STM-16</data>
+      <data key="d38">1.24166595337</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.24166595337</data>
+      <data key="d41">107</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999865177661</data>
+    </edge>
+    <edge source="31" target="32">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.271650762977</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.271650762977</data>
+      <data key="d41">108</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999861307685</data>
+    </edge>
+    <edge source="31" target="30">
+      <data key="d37">STM-16</data>
+      <data key="d38">1.24166595337</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.24166595337</data>
+      <data key="d41">109</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999855980189</data>
+    </edge>
+    <edge source="32" target="21">
+      <data key="d37">STM-16</data>
+      <data key="d38">1.20136422566</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.20136422566</data>
+      <data key="d41">110</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.99980423793</data>
+    </edge>
+    <edge source="32" target="31">
+      <data key="d37">STM-16</data>
+      <data key="d38">0.271650762977</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.271650762977</data>
+      <data key="d41">111</data>
+      <data key="d42">STM-16</data>
+      <data key="d43">0.999930858972</data>
+    </edge>
+    <edge source="33" target="9">
+      <data key="d37">STM-1</data>
+      <data key="d38">0.469828314071</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.469828314071</data>
+      <data key="d41">112</data>
+      <data key="d42">STM-1</data>
+      <data key="d43">0.999886109721</data>
+    </edge>
+    <edge source="33" target="30">
+      <data key="d37">STM-1</data>
+      <data key="d38">0.99803687185</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.99803687185</data>
+      <data key="d41">113</data>
+      <data key="d42">STM-1</data>
+      <data key="d43">0.999896140315</data>
+    </edge>
+    <edge source="34" target="35">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.7284819049</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.7284819049</data>
+      <data key="d41">114</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999901139619</data>
+    </edge>
+    <edge source="34" target="36">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.42613008308</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.42613008308</data>
+      <data key="d41">115</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999889418487</data>
+    </edge>
+    <edge source="34" target="6">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.01593898127</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.01593898127</data>
+      <data key="d41">116</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.99984260452</data>
+    </edge>
+    <edge source="34" target="7">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.0294923205</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.0294923205</data>
+      <data key="d41">117</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999882488374</data>
+    </edge>
+    <edge source="34" target="9">
+      <data key="d37">STM-64</data>
+      <data key="d38">0.706453895008</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.706453895008</data>
+      <data key="d41">118</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999902496892</data>
+    </edge>
+    <edge source="34" target="11">
+      <data key="d37">STM-4</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">119</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.99992997754</data>
+    </edge>
+    <edge source="34" target="12">
+      <data key="d45">40</data>
+      <data key="d48">0</data>
+      <data key="d39">1000</data>
+      <data key="d49">0</data>
+      <data key="d41">120</data>
+      <data key="d47">G</data>
+      <data key="d42">40Gb/s</data>
+      <data key="d46">40000000000.0</data>
+      <data key="d43">0.999846275749</data>
+    </edge>
+    <edge source="34" target="20">
+      <data key="d37">STM-64</data>
+      <data key="d38">2.45531919183</data>
+      <data key="d39">1000</data>
+      <data key="d40">2.45531919183</data>
+      <data key="d41">121</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999911116936</data>
+    </edge>
+    <edge source="34" target="21">
+      <data key="d45">10</data>
+      <data key="d38">0.0105631190215</data>
+      <data key="d42">10GEx8</data>
+      <data key="d39">1000</data>
+      <data key="d46">10000000000.0</data>
+      <data key="d40">0.0105631190215</data>
+      <data key="d41">122</data>
+      <data key="d43">0.999906557117</data>
+      <data key="d44">Ex8</data>
+      <data key="d47">G</data>
+    </edge>
+    <edge source="34" target="22">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.218700919647</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.218700919647</data>
+      <data key="d41">123</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999895693934</data>
+    </edge>
+    <edge source="34" target="24">
+      <data key="d37">STM-64</data>
+      <data key="d38">57.3107779231</data>
+      <data key="d39">1000</data>
+      <data key="d40">57.3107779231</data>
+      <data key="d41">124</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999874079142</data>
+    </edge>
+    <edge source="34" target="30">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.95496484723</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.95496484723</data>
+      <data key="d41">125</data>
+      <data key="d44">x2</data>
+      <data key="d42">STM-64x2</data>
+      <data key="d43">0.999929129464</data>
+    </edge>
+    <edge source="35" target="34">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.7284819049</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.7284819049</data>
+      <data key="d41">126</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999890110562</data>
+    </edge>
+    <edge source="35" target="21">
+      <data key="d37">STM-4</data>
+      <data key="d38">0.727508981626</data>
+      <data key="d39">1000</data>
+      <data key="d40">0.727508981626</data>
+      <data key="d41">127</data>
+      <data key="d42">STM-4</data>
+      <data key="d43">0.999921938484</data>
+    </edge>
+    <edge source="36" target="34">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.42613008308</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.42613008308</data>
+      <data key="d41">128</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999903719169</data>
+    </edge>
+    <edge source="36" target="21">
+      <data key="d37">STM-64</data>
+      <data key="d38">1.42422059286</data>
+      <data key="d39">1000</data>
+      <data key="d40">1.42422059286</data>
+      <data key="d41">129</data>
+      <data key="d42">STM-64</data>
+      <data key="d43">0.999867064177</data>
+    </edge>
+  </graph>
+</graphml>

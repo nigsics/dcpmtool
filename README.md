@@ -46,7 +46,7 @@ linkbandwidth : the list of link bandwidths to be tested.
 
 2. Run a test.
 
-In folder placement_alg/, open a terminal and run
+   In folder placement_alg/, open a terminal and run
 ```
 python run_bd_scale_test.py
 ```
@@ -56,14 +56,14 @@ The service reliability under different link bandwidths can be find in {resultpa
 
 3. Display the results
 
-In folder graphes/, open a terminal and run
+   In folder graphes/, open a terminal and run
 
 ```
 python draw_colour_coded.py
 ```
 
-Several graphes will be generated. The graphes named with the format "{topology}_{bandwidth}" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
-The graph named with the format "{topology}__scale_up" shows the achieved failure probability (failure probability = service reliability) corresponding to the link bandwidths.
+Several graphes will be generated. The graphes named with the format "{topology}_{bandwidth}.pdf" describe the corresponding deployment plans of control instances (red nodes) under different link bandwidth settings. 
+The graph named with the format "{topology}__scale_up.pdf" shows the achieved failure probability (failure probability = service reliability) corresponding to the link bandwidths.
 
  
 

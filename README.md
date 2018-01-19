@@ -2,7 +2,7 @@
 The project dcpmtool (Dynamic Control Plane Management tool) is related to the paper
 
 ```
-Shaoteng Liu, Rebecca Steinart and Dejan Kostic, "Flexible deployment of control plane",  IEEE NoMs 2018.
+Shaoteng Liu, Rebecca Steinert and Dejan Kostic, "Flexible deployment of control plane",  IEEE NoMs 2018.
 ```
 
 ## Getting Started

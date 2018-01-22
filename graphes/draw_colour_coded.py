@@ -39,7 +39,7 @@ import csv
 import pandas as pd
 
 
-config_file = 'run.config'
+config_file = '../placement_alg/run.config'
 
 config_parser = ConfigParser.ConfigParser()
 
